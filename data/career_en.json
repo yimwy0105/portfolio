@@ -1,0 +1,211 @@
+{
+  "companies": [
+    {
+      "id": "br-korea",
+      "name": "BR Korea",
+      "location": "Yangjae, Seoul",
+      "period": "2022.12 ~ Present",
+      "duration": "3 yrs 1 mo",
+      "department": "Platform Planning Team",
+      "position": "Team Leader",
+      "info": {
+        "business": "Operating Baskin Robbins / Dunkin brands",
+        "revenue": "~KRW 710B (2024 disclosure)",
+        "employees": "~1,700"
+      },
+      "projects": [
+        {
+          "id": "br-app",
+          "title": "Baskin Robbins App — Build & Launch",
+          "period": "2024.10 ~ Present",
+          "team": "BR Marketing Div., Platform Planning Team",
+          "tasks": [
+            "Built, launched, and operate the Baskin Robbins app",
+            "Won the Grand Prix at the Smart App Awards (2025.12)",
+            "Reached 1M downloads within 6 months of launch",
+            "Achieved No. 1 on the App Store (DX category)",
+            "Led UX/UI project and operations for Baskin Robbins kiosk (HappyStation)",
+            "Currently leading Phase 2 enhancements (AI cake, ordering, etc.)"
+          ],
+          "images": [
+            "assets/images/portfolio/page_04.png",
+            "assets/images/portfolio/page_05.png"
+          ]
+        },
+        {
+          "id": "br-kiosk",
+          "title": "Baskin Robbins Kiosk — UX/UI Improvement",
+          "period": "2025.01 ~ 2025.06",
+          "team": "BR Marketing Div., Platform Planning Team",
+          "tasks": [
+            "Improved kiosk usability and accessibility",
+            "Won AND Award F&B GOLD"
+          ],
+          "images": [
+            "assets/images/portfolio/page_06.png",
+            "assets/images/portfolio/page_07.png",
+            "assets/images/portfolio/page_08.png"
+          ]
+        },
+        {
+          "id": "br-app-membership",
+          "title": "Baskin Robbins App / Membership Planning",
+          "period": "2022.12 ~ 2024.10",
+          "team": "DX Office, Platform Planning Team",
+          "tasks": [
+            "Planned the Baskin Robbins app",
+            "Designed the Baskin Robbins membership / rewards program (CEO-sponsored project)",
+            "Planned the Dunkin app"
+          ],
+          "images": []
+        }
+      ]
+    },
+    {
+      "id": "hanwha-galleria",
+      "name": "Hanwha Solutions — Galleria Division",
+      "location": "",
+      "period": "2005.07 ~ 2022.11",
+      "duration": "17 yrs 4 mo",
+      "department": "Digital Innovation Team",
+      "position": "Partner",
+      "info": {
+        "business": "Hanwha Solutions — Galleria Division",
+        "revenue": "Hanwha Solutions ~KRW 12T / Galleria ~KRW 600B (2024)",
+        "employees": "~6,000 / ~800"
+      },
+      "projects": [
+        {
+          "id": "hs-digital-innovation",
+          "title": "Hanwha Solutions — Digital Innovation Team Planning & Ops",
+          "period": "2022.08 ~ 2022.11",
+          "tasks": [
+            "Planned and operated CRM, card, and customer-facing infrastructure / systems"
+          ],
+          "images": []
+        },
+        {
+          "id": "galleria-dt-strategy",
+          "title": "Galleria DT Strategy TFT",
+          "period": "2021.09 ~ 2022.07",
+          "tasks": [
+            "Defined DT strategy and initiatives in collaboration with McKinsey",
+            "Built the execution roadmap"
+          ],
+          "images": [
+            "assets/images/portfolio/page_09.png"
+          ]
+        },
+        {
+          "id": "galleria-centercity",
+          "title": "Galleria Centercity — Sales Planning Team, Promotions",
+          "period": "2020.03 ~ 2021.09",
+          "tasks": [
+            "Planned weekly / monthly department-store promotions and customer-reward events",
+            "Online channel management: web / app / SNS for Centercity",
+            "Art Hall management: monthly / annual performance coordination and crew management"
+          ],
+          "images": []
+        },
+        {
+          "id": "galleria-mall-renewal",
+          "title": "Galleria Shopping Mall Renewal (Digital Channel TF)",
+          "period": "2018.07 ~ 2020.03",
+          "tasks": [
+            "Galleria Mall commerce channel renewal: membership and process design",
+            "Marketing channel planning",
+            "Planning for AI and emerging-tech adoption",
+            "B2B mall redesign planning"
+          ],
+          "images": [
+            "assets/images/portfolio/page_10.png"
+          ]
+        },
+        {
+          "id": "eba-icecream",
+          "title": "F&B New Business — EBA ICE CREAM",
+          "period": "2017.11 ~ 2018.07",
+          "tasks": [
+            "Launched a premium ice cream brand: brand business planning, opening, and operations",
+            "Launched EBA ICE CREAM; opened the first store at Galleria Luxury Hall"
+          ],
+          "images": [
+            "assets/images/portfolio/page_11.png"
+          ]
+        },
+        {
+          "id": "galleria-brand-digital",
+          "title": "Galleria Brand Digital Channel Renewal",
+          "period": "2014.05 ~ 2017.10",
+          "tasks": [
+            "Part Leader of Galleria digital channel operations",
+            "Defined the digital channel strategy for Galleria (2017): direction, VIP service planning, app card service planning",
+            "Built Galleria G-Cash: shifted 90% of paper gift certificates to mobile",
+            "Designed services such as PSR ROOM"
+          ],
+          "images": [
+            "assets/images/portfolio/page_12.png",
+            "assets/images/portfolio/page_13.png"
+          ]
+        },
+        {
+          "id": "galleria-luxury-web",
+          "title": "Galleria Luxury Hall — Web / Mobile Build",
+          "period": "2013.12 ~ 2014.04",
+          "tasks": [
+            "Project Lead for the Galleria Luxury Hall website renewal: channel redesign and content planning",
+            "Won Grand Prix at the Smart Web Award Korea (Website)"
+          ],
+          "images": [
+            "assets/images/portfolio/page_14.png",
+            "assets/images/portfolio/page_15.png"
+          ]
+        },
+        {
+          "id": "galleria-digital-magazine",
+          "title": "Galleria Digital Magazine App",
+          "period": "2013.04 ~ 2013.10",
+          "tasks": [
+            "Planned app content",
+            "Won App Award Special Prize"
+          ],
+          "images": [
+            "assets/images/portfolio/page_16.png"
+          ]
+        },
+        {
+          "id": "galleria-online-strategy",
+          "title": "Galleria Online Strategy & New Business Planning",
+          "period": "2010.03 ~ 2012.11",
+          "tasks": [
+            "Galleria online strategy planning; website and Luxury Hall app planning / build"
+          ],
+          "images": [
+            "assets/images/portfolio/page_17.png"
+          ]
+        },
+        {
+          "id": "beans-and-berries",
+          "title": "F&B New Business — Beans & Berries",
+          "period": "2006.09 ~ 2010.03",
+          "tasks": [
+            "Led new-business planning and promotions",
+            "Launched the Beans & Berries cafe brand; opened and operated 8 stores in the Seoul / Gyeonggi region"
+          ],
+          "images": [
+            "assets/images/portfolio/page_18.png"
+          ]
+        },
+        {
+          "id": "galleria-luxury-sales",
+          "title": "Galleria Luxury Hall — Sales Team 1",
+          "period": "2005.10 ~ 2006.08",
+          "tasks": [
+            "Managed Men's Apparel, Luxury Hall WEST 4F"
+          ],
+          "images": []
+        }
+      ]
+    }
+  ]
+}

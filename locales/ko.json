@@ -1,0 +1,69 @@
+{
+  "meta.title": "임우영 · Wooyoung Yim — Portfolio",
+  "meta.description": "DX/디지털 플랫폼 기획 전문가 임우영의 포트폴리오.",
+
+  "header.name": "임우영",
+  "header.langAria": "Switch to English",
+  "header.themeToDark": "다크 모드로 전환",
+  "header.themeToLight": "라이트 모드로 전환",
+
+  "nav.home": "Home",
+  "nav.career": "Career",
+  "nav.awardsTalks": "Awards / Talks",
+  "nav.reading": "Reading",
+  "nav.contact": "Contact",
+
+  "hero.eyebrow": "Portfolio · 2026",
+  "hero.title": "DX / Digital Platform Strategist",
+  "hero.cta.whoAmI": "Who am I",
+  "hero.cta.contact": "Contact",
+
+  "career.introduce": "Introduce",
+  "career.history": "Career History",
+  "career.intro.highlight1": "대기업 리테일·F&B 브랜드의 대고객 디지털 플랫폼 기획 구축 및 운영",
+  "career.intro.highlight2": "온/오프라인 통합 디지털 전략 수립 및 컨설팅 펌과 DT 프로젝트 수행",
+  "career.intro.highlight3": "AI·빅데이터 MBA 이수를 통한 데이터 기반 의사결정 및 AI 이해도",
+  "career.bio.openLabel": "자기 소개 상세 보기",
+  "career.bio.closeLabel": "자기 소개 접기",
+  "career.tags.dx": "DX전략",
+  "career.tags.platform": "플랫폼기획",
+  "career.tags.app": "앱구축",
+  "career.tags.ai": "AI/빅데이터",
+  "career.tags.fnb": "F&B",
+  "career.tags.retail": "리테일",
+  "career.info.business": "사업",
+  "career.info.revenue": "매출",
+  "career.info.employees": "임직원",
+
+  "education.academic": "Academic",
+  "education.training": "Training / Certification",
+
+  "awards.title": "Awards",
+  "talks.title": "Talks",
+  "awards.grade.grand": "최고대상",
+  "awards.grade.gold": "GOLD",
+  "awards.grade.first": "대상",
+  "awards.grade.excellence": "최우수상",
+  "awards.grade.default": "수상",
+  "talks.imagePlaceholder": "강연 이미지 준비중",
+
+  "reading.title": "Reading",
+  "reading.intro": "읽고 있는 책과 정리한 생각을 기록합니다 — Notion에서 동기화됩니다.",
+  "reading.loading": "독서 목록을 불러오는 중…",
+
+  "contact.title": "Contact",
+  "contact.intro": "DX 전략 직무 및 협업 제안을 환영합니다 — 편하게 연락 주세요.",
+  "contact.nameKo": "임우영",
+  "contact.nameEn": "Wooyoung Yim",
+  "contact.role": "DX / Digital Platform Strategist",
+  "contact.labels.email": "이메일",
+  "contact.labels.phone": "전화",
+  "contact.comingSoon": "준비 중",
+  "contact.send": "이메일 보내기",
+
+  "footer.tagline": "DX / Digital Platform Strategist",
+  "footer.copy": "© 2026 Yim WooYoung. All rights reserved.",
+  "footer.builtWith": "HTML · CSS · Vanilla JS 로 제작",
+
+  "common.error": "데이터를 불러올 수 없습니다."
+}

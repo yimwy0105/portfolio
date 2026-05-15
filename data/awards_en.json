@@ -1,0 +1,60 @@
+{
+  "awards": [
+    {
+      "date": "2025.12.18",
+      "title": "Baskin Robbins App — Smart App Award 'Grand Prix'",
+      "issuer": "Korea Internet Professional Association",
+      "grade": "grand",
+      "image": "assets/images/awards/galleria_2014.png"
+    },
+    {
+      "date": "2025.02.26",
+      "title": "Baskin Robbins Kiosk — AND Award F&B GOLD",
+      "issuer": "Korea Digital Enterprise Association",
+      "grade": "gold",
+      "image": "assets/images/awards/happystation_and.png"
+    },
+    {
+      "date": "2014.12.15",
+      "title": "Galleria Web — Smart Web Award 'Grand Prix'",
+      "issuer": "Korea Internet Professional Association",
+      "grade": "grand",
+      "images": [
+        "assets/images/awards/galleria_web_award.png",
+        "assets/images/awards/galleria_web_award_p2.png"
+      ]
+    },
+    {
+      "date": "2014.12.04",
+      "title": "Galleria Digital Magazine — App Award Korea Monthly Web Special Award",
+      "issuer": "",
+      "grade": "first"
+    },
+    {
+      "date": "2014.08.10",
+      "title": "CSS DA 'Website of the Day'",
+      "issuer": "CSS Design Awards",
+      "grade": "default"
+    },
+    {
+      "date": "2014.08.09",
+      "title": "CSS Winner 'Winner of the Day'",
+      "issuer": "CSS Winner",
+      "grade": "default"
+    },
+    {
+      "date": "2003.08.13",
+      "title": "National University Invention Club Contest — Gold Prize",
+      "issuer": "Ministry of Commerce, Industry and Energy",
+      "grade": "first",
+      "image": "assets/images/awards/invention_2003.png"
+    },
+    {
+      "date": "2002.12.06",
+      "title": "University Startup Club Support Program — Excellence Award",
+      "issuer": "Gyeonggi Regional SME Office",
+      "grade": "excellence",
+      "image": "assets/images/awards/startup_2002.png"
+    }
+  ]
+}

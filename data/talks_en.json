@@ -1,0 +1,18 @@
+{
+  "talks": [
+    {
+      "event": "2026 Internet Service Trend Conference",
+      "date": "2026.04.02",
+      "session": "Building the Baskin Robbins App — The Differentiation Trap",
+      "description": "",
+      "images": ["assets/images/talks/internet_service_trend_conf_2026.png"]
+    },
+    {
+      "event": "Commerce Marketing & Technology Summit 2026",
+      "date": "2026.05.20",
+      "session": "Baskin Robbins 'Favorite Flavor' Prediction Strategy",
+      "description": "",
+      "images": ["assets/images/talks/commerce_marketing_tech_summit_2026.jpg"]
+    }
+  ]
+}

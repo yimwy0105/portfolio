@@ -1,0 +1,60 @@
+{
+  "awards": [
+    {
+      "date": "2025.12.18",
+      "title": "배스킨라빈스 앱 Smart App Award ‘최고대상’",
+      "issuer": "한국인터넷전문가협회",
+      "grade": "grand",
+      "image": "assets/images/awards/galleria_2014.png"
+    },
+    {
+      "date": "2025.02.26",
+      "title": "배스킨라빈스 키오스크 AND Award F&B GOLD",
+      "issuer": "한국디지털기업협회",
+      "grade": "gold",
+      "image": "assets/images/awards/happystation_and.png"
+    },
+    {
+      "date": "2014.12.15",
+      "title": "갤러리아 웹 Smart Web Award ‘최고대상’",
+      "issuer": "한국인터넷전문가협회",
+      "grade": "grand",
+      "images": [
+        "assets/images/awards/galleria_web_award.png",
+        "assets/images/awards/galleria_web_award_p2.png"
+      ]
+    },
+    {
+      "date": "2014.12.04",
+      "title": "갤러리아 디지털 매거진 App Award Korea 월간 web 특별 대상",
+      "issuer": "",
+      "grade": "first"
+    },
+    {
+      "date": "2014.08.10",
+      "title": "CSS DA ‘Website of the Day’",
+      "issuer": "CSS Design Awards",
+      "grade": "default"
+    },
+    {
+      "date": "2014.08.09",
+      "title": "CSS Winner ‘Winner of the Day’",
+      "issuer": "CSS Winner",
+      "grade": "default"
+    },
+    {
+      "date": "2003.08.13",
+      "title": "전국대학발명동아리 경진대회 ‘대상’",
+      "issuer": "산업자원부",
+      "grade": "first",
+      "image": "assets/images/awards/invention_2003.png"
+    },
+    {
+      "date": "2002.12.06",
+      "title": "대학창업동아리지원사업 ‘최우수상’",
+      "issuer": "경기지방중소기업청",
+      "grade": "excellence",
+      "image": "assets/images/awards/startup_2002.png"
+    }
+  ]
+}

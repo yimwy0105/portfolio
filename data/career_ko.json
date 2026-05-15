@@ -1,0 +1,211 @@
+{
+  "companies": [
+    {
+      "id": "br-korea",
+      "name": "비알코리아",
+      "location": "서울 양재",
+      "period": "2022.12 ~ 재직중",
+      "duration": "3년 1개월",
+      "department": "플랫폼 기획팀",
+      "position": "팀장",
+      "info": {
+        "business": "배스킨라빈스/던킨 브랜드 운영",
+        "revenue": "약 7,100억 (24년 공시 기준)",
+        "employees": "약 1,700명"
+      },
+      "projects": [
+        {
+          "id": "br-app",
+          "title": "배스킨라빈스 앱 구축",
+          "period": "2024.10 ~ 현재",
+          "team": "BR마케팅 본부 플랫폼기획팀",
+          "tasks": [
+            "배스킨라빈스 앱 구축, 론칭 및 운영",
+            "배스킨라빈스 스마트앱어워드 최고대상 수상 (25.12)",
+            "배스킨라빈스 앱 6개월 만에 100만 다운 달성",
+            "배스킨라빈스 앱 앱스토어 1위 달성DX",
+            "배스킨라빈스 키오스크(해피스테이션) UX/UI 프로젝트 진행 및 운영",
+            "배스킨라빈스 앱 2차 고도화 (AI 케이크, 주문 등) 작업 진행 중"
+          ],
+          "images": [
+            "assets/images/portfolio/page_04.png",
+            "assets/images/portfolio/page_05.png"
+          ]
+        },
+        {
+          "id": "br-kiosk",
+          "title": "배스킨라빈스 키오스크 UX/UI 개선",
+          "period": "2025.01 ~ 2025.06",
+          "team": "BR마케팅 본부 플랫폼기획팀",
+          "tasks": [
+            "키오스크 사용성 및 접근성 개선",
+            "AND Award F&B GOLD 수상"
+          ],
+          "images": [
+            "assets/images/portfolio/page_06.png",
+            "assets/images/portfolio/page_07.png",
+            "assets/images/portfolio/page_08.png"
+          ]
+        },
+        {
+          "id": "br-app-membership",
+          "title": "배스킨라빈스 앱/멤버십 기획",
+          "period": "2022.12 ~ 2024.10",
+          "team": "DX실 플랫폼기획팀",
+          "tasks": [
+            "배스킨라빈스 앱 기획",
+            "배스킨라빈스 멤버십/리워드 프로그램 기획 (대표이사 직속 프로젝트)",
+            "던킨 앱 기획"
+          ],
+          "images": []
+        }
+      ]
+    },
+    {
+      "id": "hanwha-galleria",
+      "name": "한화솔루션 갤러리아 부문",
+      "location": "",
+      "period": "2005.07 ~ 2022.11",
+      "duration": "17년 4개월",
+      "department": "디지털 혁신팀",
+      "position": "파트너",
+      "info": {
+        "business": "한화솔루션 갤러리아 부문",
+        "revenue": "한화 솔루션 약 12조 / 갤러리아 약 6,000억 (24년 기준)",
+        "employees": "약 6,000명 / 약 800명"
+      },
+      "projects": [
+        {
+          "id": "hs-digital-innovation",
+          "title": "한화솔루션 디지털 혁신팀 시스템 기획 및 운영",
+          "period": "2022.08 ~ 2022.11",
+          "tasks": [
+            "CRM, 카드 및 고객 관련 인프라 / 시스템 기획 운영"
+          ],
+          "images": []
+        },
+        {
+          "id": "galleria-dt-strategy",
+          "title": "갤러리아 DT 전략 수립 TFT",
+          "period": "2021.09 ~ 2022.07",
+          "tasks": [
+            "맥킨지 협업을 통한 DT 전략 및 과제 도출",
+            "실행 계획 수립"
+          ],
+          "images": [
+            "assets/images/portfolio/page_09.png"
+          ]
+        },
+        {
+          "id": "galleria-centercity",
+          "title": "갤러리아백화점 센터시티 영업기획팀 프로모션 기획/운영",
+          "period": "2020.03 ~ 2021.09",
+          "tasks": [
+            "백화점 주간/월간 프로모션 기획 및 이벤트 기획, 판촉 사은행사 기획 및 운영",
+            "온라인채널관리: 센터시티 관련 웹/App./SNS 관리 및 운영",
+            "아트홀 관리: 월간/년간 아트홀 내 공연 진행 협의 및 관련 인력 관리"
+          ],
+          "images": []
+        },
+        {
+          "id": "galleria-mall-renewal",
+          "title": "갤러리아 쇼핑몰 개편 (디지털 채널 리뉴얼 TF)",
+          "period": "2018.07 ~ 2020.03",
+          "tasks": [
+            "갤러리아몰 커머스 채널 개편: 회원 관리 및 프로세스 기획",
+            "마케팅 채널 기획",
+            "AI 및 신규 기술 도입 기획",
+            "법인몰 개편 기획"
+          ],
+          "images": [
+            "assets/images/portfolio/page_10.png"
+          ]
+        },
+        {
+          "id": "eba-icecream",
+          "title": "F&B 신규사업 — EBA ICE CREAM",
+          "period": "2017.11 ~ 2018.07",
+          "tasks": [
+            "아이스크림 브랜드 론칭: 브랜드 사업 기획 및 브랜드 오픈, 운영",
+            "EBA ICE CREAM 론칭, 갤러리아 명품관 1호점 오픈"
+          ],
+          "images": [
+            "assets/images/portfolio/page_11.png"
+          ]
+        },
+        {
+          "id": "galleria-brand-digital",
+          "title": "갤러리아 브랜드 디지털 채널 개편",
+          "period": "2014.05 ~ 2017.10",
+          "tasks": [
+            "갤러리아 백화점 디지털 채널 운영 파트장",
+            "갤러리아 백화점 디지털 채널 전략 수립 및 채널 기획 (2017): 채널 방향성 수립, VIP 서비스 기획, App. 카드 서비스 기획",
+            "갤러리아 백화점 G캐시 개발: 지류 상품권 → 모바일 상품권으로 90% 이동",
+            "PSR ROOM 등 서비스 기획"
+          ],
+          "images": [
+            "assets/images/portfolio/page_12.png",
+            "assets/images/portfolio/page_13.png"
+          ]
+        },
+        {
+          "id": "galleria-luxury-web",
+          "title": "갤러리아 명품관 웹/모바일 구축",
+          "period": "2013.12 ~ 2014.04",
+          "tasks": [
+            "갤러리아 명품관 웹사이트 개편 PL: 채널 개편 기획 및 콘텐츠 서비스 기획",
+            "스마트 웹 어워드 코리아 웹사이트 최고 대상 수상"
+          ],
+          "images": [
+            "assets/images/portfolio/page_14.png",
+            "assets/images/portfolio/page_15.png"
+          ]
+        },
+        {
+          "id": "galleria-digital-magazine",
+          "title": "갤러리아 디지털 매거진 App",
+          "period": "2013.04 ~ 2013.10",
+          "tasks": [
+            "App 콘텐츠 기획",
+            "App Award 특별대상 수상"
+          ],
+          "images": [
+            "assets/images/portfolio/page_16.png"
+          ]
+        },
+        {
+          "id": "galleria-online-strategy",
+          "title": "갤러리아 온라인 전략 및 신규 사업 기획",
+          "period": "2010.03 ~ 2012.11",
+          "tasks": [
+            "갤러리아 온라인 전략 기획, 웹사이트 및 명품관 App. 기획 및 구축"
+          ],
+          "images": [
+            "assets/images/portfolio/page_17.png"
+          ]
+        },
+        {
+          "id": "beans-and-berries",
+          "title": "식음 신규 사업 — Beans&Berries",
+          "period": "2006.09 ~ 2010.03",
+          "tasks": [
+            "신규 사업 기획 및 판촉 담당",
+            "Beans&Berries 카페 브랜드 론칭, 서울 경기권 8개점 오픈 및 운영"
+          ],
+          "images": [
+            "assets/images/portfolio/page_18.png"
+          ]
+        },
+        {
+          "id": "galleria-luxury-sales",
+          "title": "갤러리아 명품관 영업1팀",
+          "period": "2005.10 ~ 2006.08",
+          "tasks": [
+            "명품관 WEST 4층 남성복 담당"
+          ],
+          "images": []
+        }
+      ]
+    }
+  ]
+}

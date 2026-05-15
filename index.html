@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#82dc28" />
+  <meta name="robots" content="index,follow" />
+
+  <title>임우영 · Wooyoung Yim — Portfolio</title>
+  <meta name="description" content="DX/디지털 플랫폼 기획 전문가 임우영의 포트폴리오." />
+  <meta name="author" content="Wooyoung Yim (임우영)" />
+
+  <link rel="canonical" href="https://yimwy.com/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="ko_KR" />
+  <meta property="og:site_name" content="yimwy.com" />
+  <meta property="og:url" content="https://yimwy.com/" />
+  <meta property="og:title" content="임우영 · Wooyoung Yim — Portfolio" />
+  <meta property="og:description" content="DX/디지털 플랫폼 기획 전문가 임우영의 포트폴리오." />
+  <meta property="og:image" content="https://yimwy.com/assets/images/portfolio/page_01.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="임우영 · Wooyoung Yim — Portfolio" />
+  <meta name="twitter:description" content="DX/디지털 플랫폼 기획 전문가 임우영의 포트폴리오." />
+  <meta name="twitter:image" content="https://yimwy.com/assets/images/portfolio/page_01.png" />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2382dc28'/%3E%3Ctext x='50%25' y='54%25' text-anchor='middle' dominant-baseline='middle' font-family='Arial,sans-serif' font-size='32' font-weight='700' fill='%23ffffff'%3EW%3C/text%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link rel="stylesheet" href="css/theme.css" />
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/components.css" />
+</head>
+<body>
+  <div id="app">
+
+    <header class="top-nav" id="topNav">
+      <div class="top-nav__inner">
+
+        <a class="top-nav__logo" href="#home" aria-label="홈으로">
+          <span class="top-nav__logo-ko">yimwooyoung</span>
+        </a>
+
+        <nav class="top-nav__menu" id="topNavMenu" aria-label="주 메뉴">
+          <a class="nav-link" href="#home"            data-nav="home"      data-i18n="nav.home">Home</a>
+          <a class="nav-link" href="#career"          data-nav="career"    data-i18n="nav.career">Career</a>
+          <a class="nav-link" href="#awards-talks"    data-nav="awards-talks" data-i18n="nav.awardsTalks">Awards / Talks</a>
+          <a class="nav-link" href="#reading"         data-nav="reading"   data-i18n="nav.reading">Reading</a>
+          <a class="nav-link" href="#contact"         data-nav="contact"   data-i18n="nav.contact">Contact</a>
+        </nav>
+
+        <div class="top-nav__actions">
+          <button class="language-toggle" type="button" aria-label="언어 전환" data-lang-current="ko">
+            <span class="language-toggle__label">EN</span>
+          </button>
+          <button class="theme-toggle" type="button" aria-label="다크 모드 전환">
+            <svg class="theme-toggle__icon theme-toggle__icon--sun" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+              <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/>
+              <path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            <svg class="theme-toggle__icon theme-toggle__icon--moon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+              <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+            </svg>
+          </button>
+
+          <button class="hamburger" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="topNavMenu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+
+      </div>
+    </header>
+
+    <!-- Floating category arrows (body-fixed) -->
+    <button class="nav-arrow nav-arrow--prev nav-arrow--floating" type="button" aria-label="이전 카테고리">
+      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+        <path d="M15 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+    <button class="nav-arrow nav-arrow--next nav-arrow--floating" type="button" aria-label="다음 카테고리">
+      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+        <path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+
+    <main id="main">
+
+      <!-- ============== Home ============== -->
+      <section class="page page--active" id="home" data-nav="home">
+        <div class="hero">
+          <div class="hero__inner">
+            <p class="hero__eyebrow fade-in" data-i18n="hero.eyebrow">Portfolio · 2026</p>
+
+            <h1 class="hero__name slide-up">
+              <span>임우영</span>
+              <span class="hero__name-en">Yim WooYoung</span>
+            </h1>
+
+            <p class="hero__title slide-up" data-i18n="hero.title">
+              DX / Digital Platform Strategist
+            </p>
+
+            <div class="hero__cta slide-up">
+              <a class="button button--primary" href="#career" data-nav-link="career" data-i18n="hero.cta.whoAmI">Who am I</a>
+              <a class="button button--secondary" href="#contact" data-nav-link="contact" data-i18n="hero.cta.contact">Contact</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============== Career ============== -->
+      <section class="page" id="career" data-nav="career">
+        <div class="career-layout container">
+
+          <aside class="career-sidebar" aria-label="Career 서브 메뉴">
+            <nav class="career-submenu">
+              <a class="career-submenu__link is-active" href="#career-introduce" data-sub="career-introduce" data-i18n="career.introduce">Introduce</a>
+              <a class="career-submenu__link" href="#career-history" data-sub="career-history" data-i18n="career.history">Career History</a>
+              <a class="career-submenu__link" href="#career-academic" data-sub="career-academic" data-i18n="education.academic">Academic</a>
+              <a class="career-submenu__link" href="#career-training" data-sub="career-training" data-i18n="education.training">Training / Certification</a>
+            </nav>
+          </aside>
+
+          <div class="career-content">
+
+            <article id="career-introduce" class="career-intro">
+              <h2 class="career-section-title slide-up" data-i18n="career.introduce">Introduce</h2>
+
+              <div class="career-intro__body">
+                <picture class="career-intro__profile slide-up">
+                  <source srcset="assets/images/portfolio/profile.webp" type="image/webp">
+                  <img src="assets/images/portfolio/profile.png" alt="임우영 프로필 사진" loading="lazy" decoding="async">
+                </picture>
+
+                <div class="career-intro__text">
+                  <ul class="career-intro__highlights">
+                    <li class="career-intro__highlight slide-up" data-i18n="career.intro.highlight1">
+                      대기업 리테일·F&amp;B 브랜드의 대고객 디지털 플랫폼 기획 구축 및 운영
+                    </li>
+                    <li class="career-intro__highlight slide-up" data-i18n="career.intro.highlight2">
+                      온/오프라인 통합 디지털 전략 수립 및 컨설팅 펌과 DT 프로젝트 수행
+                    </li>
+                    <li class="career-intro__highlight slide-up" data-i18n="career.intro.highlight3">
+                      AI·빅데이터 MBA 이수를 통한 데이터 기반 의사결정 및 AI 이해도
+                    </li>
+                  </ul>
+
+                  <ul class="tag-list slide-up">
+                    <li class="tag" data-i18n="career.tags.dx">DX전략</li>
+                    <li class="tag" data-i18n="career.tags.platform">플랫폼기획</li>
+                    <li class="tag" data-i18n="career.tags.app">앱구축</li>
+                    <li class="tag" data-i18n="career.tags.ai">AI/빅데이터</li>
+                    <li class="tag" data-i18n="career.tags.fnb">F&amp;B</li>
+                    <li class="tag" data-i18n="career.tags.retail">리테일</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="career-intro__bio" id="careerBio" hidden></div>
+
+              <button class="bio-toggle" type="button" id="bioToggleBtn" aria-expanded="false" aria-controls="careerBio">
+                <span class="bio-toggle__label" data-i18n="career.bio.openLabel">자기 소개 상세 보기</span>
+                <svg class="bio-toggle__icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+                  <path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+            </article>
+
+            <article id="career-history" class="career-history">
+              <h2 class="career-section-title slide-up" data-i18n="career.history">Career History</h2>
+              <div class="timeline" id="timelineRoot" data-loading="true">
+                <p class="timeline__loading">Loading…</p>
+              </div>
+            </article>
+
+            <article id="career-academic" class="edu-section">
+              <h2 class="career-section-title slide-up" data-i18n="education.academic">Academic</h2>
+              <div class="timeline" id="academicTimelineRoot" data-loading="true">
+                <p class="timeline__loading">Loading…</p>
+              </div>
+            </article>
+
+            <article id="career-training" class="edu-section">
+              <h2 class="career-section-title slide-up" data-i18n="education.training">Training / Certification</h2>
+              <div class="timeline" id="trainingTimelineRoot" data-loading="true">
+                <p class="timeline__loading">Loading…</p>
+              </div>
+            </article>
+
+          </div>
+        </div>
+
+      </section>
+
+      <!-- ============== Awards / Talks ============== -->
+      <section class="page" id="awards-talks" data-nav="awards-talks">
+        <div class="at-layout container">
+
+          <aside class="at-sidebar" aria-label="Awards / Talks 서브 메뉴">
+            <nav class="at-submenu">
+              <a class="at-submenu__link is-active" href="#at-awards" data-sub="at-awards" data-i18n="awards.title">Awards</a>
+              <a class="at-submenu__link" href="#at-talks" data-sub="at-talks" data-i18n="talks.title">Talks</a>
+            </nav>
+          </aside>
+
+          <div class="at-content">
+
+            <article id="at-awards" class="at-section">
+              <h2 class="at-section-title slide-up" data-i18n="awards.title">Awards</h2>
+              <div class="timeline awards-timeline" id="awardsTimelineRoot" data-loading="true">
+                <p class="timeline__loading">Loading…</p>
+              </div>
+            </article>
+
+            <article id="at-talks" class="at-section">
+              <h2 class="at-section-title slide-up" data-i18n="talks.title">Talks</h2>
+              <div class="talks" id="talksRoot" data-loading="true">
+                <p class="timeline__loading">Loading…</p>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </section>
+      <!-- ============== Reading ============== -->
+      <section class="page" id="reading" data-nav="reading">
+        <div class="reading-layout container">
+
+          <header class="reading-header">
+            <h2 class="reading-title slide-up" data-i18n="reading.title">Reading</h2>
+            <p class="reading-intro slide-up" data-i18n="reading.intro">
+              읽고 있는 책과 정리한 생각을 기록합니다 — Notion에서 동기화됩니다.
+            </p>
+          </header>
+
+          <div class="reading-grid slide-up" id="readingGrid" data-state="loading" aria-live="polite">
+            <p class="reading-status" data-i18n="reading.loading">독서 목록을 불러오는 중…</p>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ============== Contact ============== -->
+      <section class="page" id="contact" data-nav="contact">
+        <div class="contact-layout container">
+
+          <header class="contact-header">
+            <h2 class="contact-title slide-up" data-i18n="contact.title">Contact</h2>
+            <p class="contact-intro slide-up" data-i18n="contact.intro">
+              DX 전략 직무 및 협업 제안을 환영합니다 — 편하게 연락 주세요.
+            </p>
+          </header>
+
+          <article class="contact-card slide-up">
+
+            <div class="contact-card__head">
+              <p class="contact-card__name">
+                <span data-i18n="contact.nameKo">임우영</span>
+                <span class="contact-card__name-en" data-i18n="contact.nameEn">Wooyoung Yim</span>
+              </p>
+              <p class="contact-card__role" data-i18n="contact.role">
+                DX / Digital Platform Strategist
+              </p>
+            </div>
+
+            <ul class="contact-list">
+
+              <li class="contact-item">
+                <a class="contact-item__link" href="mailto:limwy0105@gmail.com">
+                  <span class="contact-item__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="20" height="20">
+                      <rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/>
+                      <path d="M3.5 6.5l8.5 7 8.5-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+                    </svg>
+                  </span>
+                  <span class="contact-item__body">
+                    <span class="contact-item__label" data-i18n="contact.labels.email">이메일</span>
+                    <span class="contact-item__value">limwy0105@gmail.com</span>
+                  </span>
+                </a>
+              </li>
+
+              <li class="contact-item">
+                <a class="contact-item__link" href="https://www.linkedin.com/in/wooyoung-yim" target="_blank" rel="noopener noreferrer">
+                  <span class="contact-item__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="20" height="20">
+                      <rect x="3" y="3" width="18" height="18" rx="3" fill="none" stroke="currentColor" stroke-width="1.8"/>
+                      <path d="M7 10v7M7 7v.01M11 17v-5a2 2 0 0 1 4 0v5M11 12v5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                    </svg>
+                  </span>
+                  <span class="contact-item__body">
+                    <span class="contact-item__label">LinkedIn</span>
+                    <span class="contact-item__value">www.linkedin.com/in/wooyoung-yim</span>
+                  </span>
+                </a>
+              </li>
+
+              <li class="contact-item contact-item--placeholder">
+                <span class="contact-item__link" aria-disabled="true">
+                  <span class="contact-item__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="20" height="20">
+                      <path d="M12 3a9 9 0 0 0-2.85 17.54c.45.08.62-.2.62-.44v-1.7c-2.5.55-3.03-1.07-3.03-1.07-.41-1.04-1-1.31-1-1.31-.82-.56.06-.55.06-.55.9.06 1.38.93 1.38.93.8 1.38 2.11.98 2.62.75.08-.58.31-.98.57-1.2-2-.23-4.1-1-4.1-4.45 0-.98.35-1.78.93-2.41-.09-.23-.4-1.15.09-2.4 0 0 .76-.24 2.5.92a8.65 8.65 0 0 1 4.55 0c1.74-1.16 2.5-.92 2.5-.92.49 1.25.18 2.17.09 2.4.58.63.92 1.43.92 2.41 0 3.46-2.1 4.21-4.11 4.44.32.27.61.81.61 1.64v2.43c0 .24.16.52.62.43A9 9 0 0 0 12 3z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+                    </svg>
+                  </span>
+                  <span class="contact-item__body">
+                    <span class="contact-item__label">GitHub</span>
+                    <span class="contact-item__value contact-item__value--muted" data-i18n="contact.comingSoon">준비 중</span>
+                  </span>
+                </span>
+              </li>
+
+            </ul>
+
+            <a class="button button--primary contact-card__cta" href="mailto:limwy0105@gmail.com" data-i18n="contact.send">이메일 보내기</a>
+
+          </article>
+
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Shared image modal (Career / Awards) -->
+    <div class="image-modal" id="imageModal" hidden role="dialog" aria-modal="true" aria-label="이미지 확대 보기">
+      <button class="image-modal__close" type="button" aria-label="닫기">&times;</button>
+      <img class="image-modal__image" alt="" />
+    </div>
+
+    <footer class="footer">
+      <div class="footer__inner">
+
+        <div class="footer__brand">
+          <a class="footer__logo" href="#home" aria-label="yimwy.com 홈으로">yimwy.com</a>
+          <p class="footer__tagline" data-i18n="footer.tagline">DX / Digital Platform Strategist</p>
+        </div>
+
+        <nav class="footer__nav" aria-label="Footer 메뉴">
+          <a class="footer__link" href="#career" data-i18n="nav.career">Career</a>
+          <a class="footer__link" href="#awards-talks" data-i18n="nav.awardsTalks">Awards / Talks</a>
+          <a class="footer__link" href="#reading" data-i18n="nav.reading">Reading</a>
+          <a class="footer__link" href="#contact" data-i18n="nav.contact">Contact</a>
+        </nav>
+
+        <ul class="footer__social" aria-label="Social links">
+          <li>
+            <a class="footer__social-link" href="mailto:limwy0105@gmail.com" aria-label="Email">
+              <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+                <rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/>
+                <path d="M3.5 6.5l8.5 7 8.5-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="footer__social-link" href="https://www.linkedin.com/in/wooyoung-yim" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+                <rect x="3" y="3" width="18" height="18" rx="3" fill="none" stroke="currentColor" stroke-width="1.8"/>
+                <path d="M7 10v7M7 7v.01M11 17v-5a2 2 0 0 1 4 0v5M11 12v5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+            </a>
+          </li>
+        </ul>
+
+        <div class="footer__bottom">
+          <small class="footer__copy" data-i18n="footer.copy">© 2026 Yim WooYoung. All rights reserved.</small>
+          <small class="footer__meta">
+            <span data-i18n="footer.builtWith">Built with HTML · CSS · Vanilla JS</span>
+            <span class="dot-sep" aria-hidden="true">·</span>
+            <a href="https://yimwy.com">yimwy.com</a>
+          </small>
+        </div>
+
+      </div>
+    </footer>
+
+  </div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

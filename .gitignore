@@ -1,0 +1,13 @@
+# 민감 / 원본 자료
+data/*.docx
+data/*.pdf
+data/*.png
+data/*.jpg
+data/*.jpeg
+data/portfolio_pages/
+
+# Office 임시 파일
+~$*
+
+# macOS
+.DS_Store

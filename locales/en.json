@@ -1,0 +1,69 @@
+{
+  "meta.title": "Wooyoung Yim — Portfolio",
+  "meta.description": "Portfolio of Wooyoung Yim — DX / Digital Platform Strategist.",
+
+  "header.name": "Wooyoung Yim",
+  "header.langAria": "한국어로 전환",
+  "header.themeToDark": "Switch to dark mode",
+  "header.themeToLight": "Switch to light mode",
+
+  "nav.home": "Home",
+  "nav.career": "Career",
+  "nav.awardsTalks": "Awards / Talks",
+  "nav.reading": "Reading",
+  "nav.contact": "Contact",
+
+  "hero.eyebrow": "Portfolio · 2026",
+  "hero.title": "DX / Digital Platform Strategist",
+  "hero.cta.whoAmI": "Who am I",
+  "hero.cta.contact": "Contact",
+
+  "career.introduce": "Introduce",
+  "career.history": "Career History",
+  "career.intro.highlight1": "Leading large-scale retail & F&B customer-facing digital platforms — strategy, build, and operations.",
+  "career.intro.highlight2": "Omni-channel digital strategy and DT projects executed with top consulting firms.",
+  "career.intro.highlight3": "MBA in AI · Big Data — data-driven decisions and applied AI literacy.",
+  "career.bio.openLabel": "Read full bio",
+  "career.bio.closeLabel": "Hide bio",
+  "career.tags.dx": "DX Strategy",
+  "career.tags.platform": "Platform Planning",
+  "career.tags.app": "App Build",
+  "career.tags.ai": "AI / Big Data",
+  "career.tags.fnb": "F&B",
+  "career.tags.retail": "Retail",
+  "career.info.business": "Business",
+  "career.info.revenue": "Revenue",
+  "career.info.employees": "Employees",
+
+  "education.academic": "Academic",
+  "education.training": "Training / Certification",
+
+  "awards.title": "Awards",
+  "talks.title": "Talks",
+  "awards.grade.grand": "Grand Prix",
+  "awards.grade.gold": "GOLD",
+  "awards.grade.first": "Gold Prize",
+  "awards.grade.excellence": "Excellence Award",
+  "awards.grade.default": "Award",
+  "talks.imagePlaceholder": "Image coming soon",
+
+  "reading.title": "Reading",
+  "reading.intro": "A curated log of books I'm reading and reflecting on — synced from Notion.",
+  "reading.loading": "Loading reading list…",
+
+  "contact.title": "Contact",
+  "contact.intro": "Open to DX strategy roles and collaboration — reach out anytime.",
+  "contact.nameKo": "Wooyoung Yim",
+  "contact.nameEn": "Wooyoung Yim",
+  "contact.role": "DX / Digital Platform Strategist",
+  "contact.labels.email": "Email",
+  "contact.labels.phone": "Phone",
+  "contact.comingSoon": "Coming soon",
+  "contact.send": "Send Email",
+
+  "footer.tagline": "DX / Digital Platform Strategist",
+  "footer.copy": "© 2026 Yim WooYoung. All rights reserved.",
+  "footer.builtWith": "Built with HTML · CSS · Vanilla JS",
+
+  "common.error": "Failed to load data."
+}

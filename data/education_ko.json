@@ -1,0 +1,40 @@
+{
+  "academic": [
+    {
+      "period": "2020.02 ~ 2021.08",
+      "school": "서강대학교 경영대학원",
+      "major": "AI 빅테이터 이노베이션 MBA",
+      "degree": "석사졸업",
+      "location": "서울"
+    },
+    {
+      "period": "1998.03 ~ 2005.08",
+      "school": "성균관대학교",
+      "major": "시스템경영공학 / 경영학부",
+      "degree": "학사졸업",
+      "location": "서울"
+    }
+  ],
+  "training": [
+    {
+      "name": "BR코리아 AI 앰버서더 양성 과정",
+      "period": "2025.10 ~ 2025.12",
+      "institution": "에이블러닝"
+    },
+    {
+      "name": "BR코리아 AI 캠프",
+      "period": "2025.09 ~ 2025.09",
+      "institution": "엘리스 랩"
+    },
+    {
+      "name": "기초 회계",
+      "period": "2025.08 ~ 2025.10",
+      "institution": "Udemy"
+    },
+    {
+      "name": "Pandas 및 Python 을 이용한 데이터 분석 : 마스터 클래스",
+      "period": "2025.09 ~ 2026.01",
+      "institution": "Udemy"
+    }
+  ]
+}

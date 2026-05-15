@@ -1,0 +1,40 @@
+{
+  "academic": [
+    {
+      "period": "2020.02 ~ 2021.08",
+      "school": "Sogang University Graduate School of Business",
+      "major": "AI Big Data Innovation MBA",
+      "degree": "Master's degree",
+      "location": "Seoul"
+    },
+    {
+      "period": "1998.03 ~ 2005.08",
+      "school": "Sungkyunkwan University",
+      "major": "Systems Management Engineering / Business Administration",
+      "degree": "Bachelor's degree",
+      "location": "Seoul"
+    }
+  ],
+  "training": [
+    {
+      "name": "BR Korea AI Ambassador Program",
+      "period": "2025.10 ~ 2025.12",
+      "institution": "AbleLearning"
+    },
+    {
+      "name": "BR Korea AI Camp",
+      "period": "2025.09 ~ 2025.09",
+      "institution": "Elice Lab"
+    },
+    {
+      "name": "Accounting Fundamentals",
+      "period": "2025.08 ~ 2025.10",
+      "institution": "Udemy"
+    },
+    {
+      "name": "Data Analysis with Pandas and Python: Master Class",
+      "period": "2025.09 ~ 2026.01",
+      "institution": "Udemy"
+    }
+  ]
+}
