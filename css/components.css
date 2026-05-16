@@ -308,6 +308,10 @@
 .hero__visual-img {
   display: block;
   width: 100%;
+}
+.hero__visual-img > img {
+  display: block;
+  width: 100%;
   height: auto;
 }
 

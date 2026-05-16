@@ -112,10 +112,14 @@
             </div>
 
             <figure class="hero__visual slide-up" aria-hidden="true">
-              <img class="hero__visual-img hero__visual-img--light"
-                   src="assets/images/hero/main_light.png" alt="" loading="eager" decoding="async" />
-              <img class="hero__visual-img hero__visual-img--dark"
-                   src="assets/images/hero/main_dark.png" alt="" loading="eager" decoding="async" />
+              <picture class="hero__visual-img hero__visual-img--light">
+                <source srcset="assets/images/hero/main_light.webp" type="image/webp">
+                <img src="assets/images/hero/main_light.png" alt="" loading="eager" decoding="async" />
+              </picture>
+              <picture class="hero__visual-img hero__visual-img--dark">
+                <source srcset="assets/images/hero/main_dark.webp" type="image/webp">
+                <img src="assets/images/hero/main_dark.png" alt="" loading="eager" decoding="async" />
+              </picture>
             </figure>
           </div>
         </div>
