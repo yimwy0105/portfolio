@@ -286,9 +286,39 @@
 }
 
 .hero__inner {
-  max-width: 960px;
+  max-width: 1200px;
   width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: var(--space-xxl);
   text-align: left;
+}
+
+.hero__text {
+  min-width: 0;
+}
+
+.hero__visual {
+  margin: 0;
+  width: 100%;
+  max-width: 520px;
+  justify-self: end;
+}
+.hero__visual-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* 라이트/다크 이미지 스왑 — data-theme 우선, 미지정 시 시스템 설정 따름 */
+.hero__visual-img--dark { display: none; }
+[data-theme="dark"] .hero__visual-img--light { display: none; }
+[data-theme="dark"] .hero__visual-img--dark  { display: block; }
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .hero__visual-img--light { display: none; }
+  :root:not([data-theme="light"]) .hero__visual-img--dark  { display: block; }
 }
 
 .hero__eyebrow {
@@ -367,6 +397,17 @@
 .hero__highlight:nth-child(2) { transition-delay: 0.4s; }
 .hero__highlight:nth-child(3) { transition-delay: 0.5s; }
 .hero__cta          { transition-delay: 0.6s; }
+
+@media (max-width: 900px) {
+  .hero__inner {
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+  }
+  .hero__visual {
+    justify-self: center;
+    max-width: 480px;
+  }
+}
 
 @media (max-width: 768px) {
   .hero__name      { font-size: var(--font-size-display-lg); }
