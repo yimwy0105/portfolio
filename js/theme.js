@@ -10,9 +10,8 @@ export function initTheme() {
   if (!toggle) return;
 
   const saved = localStorage.getItem(STORAGE_KEY);
-  if (saved === "dark" || saved === "light") {
-    document.documentElement.setAttribute("data-theme", saved);
-  }
+  const initial = saved === "light" ? "light" : "dark";
+  document.documentElement.setAttribute("data-theme", initial);
   updateAria();
 
   toggle.addEventListener("click", () => {

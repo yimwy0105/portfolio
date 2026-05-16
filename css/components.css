@@ -141,6 +141,17 @@
   border-color: var(--color-border-strong);
 }
 
+/* Theme toggle: 페이지와 반전된 색으로 전환 대상(라이트/다크) 미리보기 */
+.theme-toggle {
+  background-color: var(--color-ink);
+  border-color:     var(--color-ink);
+  color:            var(--color-canvas);
+}
+.theme-toggle:hover {
+  background-color: var(--color-body);
+  border-color:     var(--color-body);
+}
+
 /* 라이트 모드: 다음 행선지(다크) 아이콘인 moon 표시. 다크 모드: sun 표시. */
 .theme-toggle__icon--sun  { display: none; }
 .theme-toggle__icon--moon { display: block; }
