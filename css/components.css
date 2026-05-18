@@ -1021,7 +1021,7 @@
 .project-card__gallery {
   margin-top: var(--space-lg);
   display: grid;
-  grid-template-columns: minmax(0, 1fr);
+  grid-template-columns: min(80%, 480px);
   gap: var(--space-md);
 }
 .project-card__gallery--scroll {
