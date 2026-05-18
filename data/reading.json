@@ -1,11 +1,12 @@
 {
-  "syncedAt": "2026-05-15",
+  "syncedAt": "2026-05-18",
   "source": "https://www.notion.so/27c4573b0fd380acbb00f4e3cc613b3d",
   "books": [
-    {"id":"2cc86056b4d74e2196e5acc16540a443","title":"마음의 법칙","author":"폴커 키츠, Volker Kitz","genre":null,"formats":["Paper"],"cover":"assets/reading/covers/k022836695_1.jpg","startDate":null,"endDate":null,"rating":null,"status":"읽기전"},
-    {"id":"2ebe0e6dd6834fc593d4c3b303690da0","title":"콘텐츠 디자인은 피그마 with AI","author":"리디드로우(김선영)","genre":null,"formats":["Paper"],"cover":"assets/reading/covers/k942030606_1.jpg","startDate":null,"endDate":null,"rating":null,"status":"읽기전"},
+    {"id":"2cc86056b4d74e2196e5acc16540a443","title":"마음의 법칙","author":"폴커 키츠, Volker Kitz","genre":"심리","formats":["Paper"],"cover":"assets/reading/covers/k022836695_1.jpg","startDate":null,"endDate":null,"rating":null,"status":"읽기전"},
+    {"id":"2ebe0e6dd6834fc593d4c3b303690da0","title":"콘텐츠 디자인은 피그마 with AI","author":"리디드로우(김선영)","genre":"디자인","formats":["Paper"],"cover":"assets/reading/covers/k942030606_1.jpg","startDate":null,"endDate":null,"rating":null,"status":"읽기전"},
     {"id":"97681d98527447c79caa2be0d020eb17","title":"미친듯이 심플","author":"켄 시걸, Ken Segall","genre":"자서전","formats":["Paper"],"cover":"assets/reading/covers/8954624383_3.jpg","startDate":"2025-10-11","endDate":null,"rating":null,"status":"읽는중"},
-    {"id":"b7487006b46e42578119ca358b35f022","title":"요즘 바이브 코딩 안티그래비티 완벽 가이드","author":"최지호","genre":null,"formats":["Paper"],"cover":"assets/reading/covers/k112135794_2.jpg","startDate":"2026-03-17","endDate":null,"rating":null,"status":"읽는중"},
+    {"id":"c0d1147de8f44051829a221e50ebeb73","title":"옵시디언 프로페셔널 노트","author":"구요한","genre":"AI","formats":["Paper"],"cover":"assets/reading/covers/k342137789_1.jpg","startDate":"2026-04-27","endDate":null,"rating":null,"status":"읽는중"},
+    {"id":"b7487006b46e42578119ca358b35f022","title":"요즘 바이브 코딩 안티그래비티 완벽 가이드","author":"최지호","genre":"AI","formats":["Paper"],"cover":"assets/reading/covers/k112135794_2.jpg","startDate":"2026-03-17","endDate":"2026-04-24","rating":8,"status":"완료"},
     {"id":"983de67a24da416c9a2c1858899be8a8","title":"잠수의학","author":"Dr. Car Edmonds","genre":"라이프","formats":["Paper"],"cover":"assets/reading/covers/8980852894_1.jpg","startDate":"2016-11-07","endDate":null,"rating":8,"status":"백과사전"},
     {"id":"26b7f9818fda4d99b73f2c504c7594cf","title":"케이스 인 포인트","author":"마크 P. 코센티노","genre":"경제/경영","formats":["Paper"],"cover":"assets/reading/covers/8996704563_1.jpg","startDate":null,"endDate":null,"rating":null,"status":"읽기보류"},
     {"id":"7a31b86f4ad944c5a1be117c652d033c","title":"남자들에게","author":"시오노 나나미, 鹽野七生","genre":"에세이","formats":["Paper"],"cover":"assets/reading/covers/8935610232_3.jpg","startDate":"1998-04-01","endDate":"1998-04-30","rating":7,"status":"완료"},
@@ -44,9 +45,9 @@
     {"id":"cce82b99d0874acaa3c45695db1546c0","title":"첫 여름, 완주","author":"김금희","genre":"소설","formats":["AudioBook"],"cover":"assets/reading/covers/k692038832_3.jpg","startDate":"2026-05-02","endDate":"2026-05-03","rating":8.5,"status":"완료"},
     {"id":"d84899157b0e45ad952fca73996ba59f","title":"혼자 공부하는 바이브 코딩 with 클로드 코드","author":"조태호","genre":"AI","formats":["Paper"],"cover":"assets/reading/covers/k902033034_2.jpg","startDate":"2026-04-01","endDate":"2026-05-06","rating":8,"status":"완료"},
     {"id":"b8e761357e5e43d69432f12784fb13a5","title":"김경일 교수의 심리학 수업","author":"김경일","genre":"심리","formats":["AudioBook"],"cover":"assets/reading/covers/893497561x_1.jpg","startDate":"2026-04-20","endDate":"2026-05-20","rating":7,"status":"완료"},
-    {"id":"c04a9534377648f98a00e0e79b63cf0b","title":"플랫폼의 눈으로 세상을 보라","author":"송창석","genre":"IT 모바일","formats":["Paper"],"cover":"assets/reading/covers/8931578393_1.jpg","startDate":null,"endDate":null,"rating":null,"status":"완료"},
-    {"id":"0d444e345439472fa5487c34de42ae6c","title":"멤버십 전략","author":"박대윤, 김형수","genre":"IT 모바일","formats":["Paper"],"cover":"assets/reading/covers/k292737954_1.jpg","startDate":null,"endDate":null,"rating":null,"status":"완료"},
+    {"id":"c04a9534377648f98a00e0e79b63cf0b","title":"플랫폼의 눈으로 세상을 보라","author":"송창석","genre":"IT 모바일","formats":["Paper"],"cover":"assets/reading/covers/8931578393_1.jpg","startDate":"2024-03-01","endDate":"2024-06-30","rating":7,"status":"완료"},
+    {"id":"0d444e345439472fa5487c34de42ae6c","title":"멤버십 전략","author":"박대윤, 김형수","genre":"IT 모바일","formats":["Paper"],"cover":"assets/reading/covers/k292737954_1.jpg","startDate":"2024-03-04","endDate":"2024-05-18","rating":8,"status":"완료"},
     {"id":"b40946ed85894f97b2f304ab1f8f1fb7","title":"플랫폼 전략","author":"안드레이 학주, 히라노 아쓰시 칼","genre":"IT 모바일","formats":["Paper"],"cover":"assets/reading/covers/8994418202_1.jpg","startDate":null,"endDate":null,"rating":null,"status":"완료"},
-    {"id":"a051920453954775a6b46b39c60b4197","title":"생각을 경영하라","author":"민재영","genre":"자기계발","formats":["Paper"],"cover":"assets/reading/covers/8935209996_1.jpg","startDate":null,"endDate":null,"rating":null,"status":"완료"}
+    {"id":"a051920453954775a6b46b39c60b4197","title":"생각을 경영하라","author":"민재영","genre":"자기계발","formats":["Paper"],"cover":"assets/reading/covers/8935209996_1.jpg","startDate":"2023-12-29","endDate":"2024-03-01","rating":7.5,"status":"완료"}
   ]
 }

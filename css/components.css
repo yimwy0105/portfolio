@@ -311,6 +311,7 @@
 }
 
 .hero__visual {
+  position: relative;
   margin: 0;
   width: 100%;
   max-width: 520px;
@@ -334,6 +335,51 @@
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) .hero__visual-img--light { display: none; }
   :root:not([data-theme="light"]) .hero__visual-img--dark  { display: block; }
+}
+
+/* Hero 다크 효과 — 핑크 네온 호흡 + 매장 내부 조명 인트로 깜빡임 */
+.hero__fx { display: none; pointer-events: none; position: absolute; }
+
+[data-theme="dark"] .hero__fx { display: block; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .hero__fx { display: block; }
+}
+
+.hero__fx--interior {
+  left: 62%; top: 48%;
+  width: 24%; height: 36%;
+  background: radial-gradient(
+    ellipse at 50% 50%,
+    #ffb454 0%,
+    rgba(255, 180, 84, 0.55) 40%,
+    rgba(255, 180, 84, 0) 78%
+  );
+  mix-blend-mode: screen;
+  filter: blur(4px);
+  opacity: 0;
+  animation: hero-interior-flicker 2s steps(1, end) 0.3s forwards;
+}
+@keyframes hero-interior-flicker {
+  0%   { opacity: 0; }
+  6%   { opacity: 0.38; }
+  9%   { opacity: 0; }
+  18%  { opacity: 0; }
+  23%  { opacity: 0.28; }
+  28%  { opacity: 0; }
+  40%  { opacity: 0; }
+  46%  { opacity: 0.38; }
+  52%  { opacity: 0.04; }
+  66%  { opacity: 0.24; }
+  72%  { opacity: 0.06; }
+  85%  { opacity: 0.34; }
+  100% { opacity: 0.30; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero__fx--interior {
+    animation: none;
+    opacity: 0;
+  }
 }
 
 .hero__eyebrow {
