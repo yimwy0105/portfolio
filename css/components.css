@@ -41,6 +41,11 @@
   color: var(--color-ink);
   white-space: nowrap;
 }
+.top-nav__logo-mobile { display: none; }
+@media (max-width: 768px) {
+  .top-nav__logo-ko     { display: none; }
+  .top-nav__logo-mobile { display: inline; }
+}
 
 .top-nav__menu {
   display: flex;
@@ -130,8 +135,8 @@
   font-size: var(--font-size-button-sm);
   font-weight: var(--font-weight-semibold);
   color: var(--color-ink);
-  border: 1px solid var(--color-hairline);
-  background-color: var(--color-canvas);
+  border: 1px solid var(--color-border-strong);
+  background-color: var(--color-surface-soft);
   transition: background-color 0.2s ease, border-color 0.2s ease;
 }
 
@@ -192,25 +197,32 @@
   .nav-arrow { display: none; }
   .hamburger { display: inline-flex; }
 
+  /* Actions 묶음을 오른쪽으로 밀어 logo | (lang · theme · burger) 배치 */
+  .top-nav__actions { margin-left: auto; }
+
   .top-nav__menu {
     position: fixed;
-    inset: 64px 0 0 0;
+    inset: 0 0 auto 0;
     background-color: var(--color-canvas);
-    border-top: 1px solid var(--color-hairline);
+    border-bottom: 1px solid var(--color-hairline);
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     padding: var(--space-xl) var(--space-lg);
     gap: var(--space-lg);
-    transform: translateY(-12px);
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.25s ease, transform 0.25s ease;
-  }
-  .top-nav__menu.is-open {
+    transform: translateY(-100%);
     opacity: 1;
-    transform: translateY(0);
+    pointer-events: none;
+    transition: transform 0.3s cubic-bezier(.22,1,.36,1);
+  }
+  /* 닫힘: viewport 위로 완전 이동 → 헤더 영역(0~64px) 안에 패널이 침범하지 않음 */
+  /* 열림: 헤더 높이만큼 아래로 내려 패널 시작점을 헤더 바로 아래로 정렬 */
+  .top-nav__menu.is-open {
+    transform: translateY(64px);
     pointer-events: auto;
+  }
+  .top-nav.is-scrolled .top-nav__menu.is-open {
+    transform: translateY(52px);
   }
   .nav-link {
     font-size: var(--font-size-title-md);
@@ -666,7 +678,7 @@
   .career-layout {
     grid-template-columns: minmax(0, 1fr);
     gap: var(--space-lg);
-    padding-top: var(--space-lg);
+    padding-top: 0;
   }
   .career-sidebar {
     position: sticky;
@@ -674,10 +686,13 @@
     z-index: 10;
     background-color: var(--color-canvas);
     margin-inline: calc(-1 * var(--space-lg));
+    margin-top: 0;
     padding-inline: var(--space-lg);
     padding-block: var(--space-sm);
     border-bottom: 1px solid var(--color-hairline);
+    transition: top 0.25s ease;
   }
+  .top-nav.is-scrolled ~ main .career-sidebar { top: 52px; }
   .career-submenu {
     flex-direction: row;
     gap: var(--space-base);
@@ -1231,7 +1246,7 @@
   .at-layout {
     grid-template-columns: minmax(0, 1fr);
     gap: var(--space-lg);
-    padding-top: var(--space-lg);
+    padding-top: 0;
   }
   .at-sidebar {
     position: sticky;
@@ -1239,10 +1254,13 @@
     z-index: 10;
     background-color: var(--color-canvas);
     margin-inline: calc(-1 * var(--space-lg));
+    margin-top: 0;
     padding-inline: var(--space-lg);
     padding-block: var(--space-sm);
     border-bottom: 1px solid var(--color-hairline);
+    transition: top 0.25s ease;
   }
+  .top-nav.is-scrolled ~ main .at-sidebar { top: 52px; }
   .at-submenu {
     flex-direction: row;
     gap: var(--space-base);

@@ -66,9 +66,15 @@ function setupSubmenu() {
 }
 
 function setActiveSubmenu(id) {
+  let activeLink = null;
   document.querySelectorAll(".career-submenu__link").forEach(l => {
-    l.classList.toggle("is-active", l.dataset.sub === id);
+    const isActive = l.dataset.sub === id;
+    l.classList.toggle("is-active", isActive);
+    if (isActive) activeLink = l;
   });
+  // 모바일에선 서브탭이 가로 스크롤(.career-submenu). 활성 탭을 컨테이너 좌측에 강제 정렬.
+  // inline:"start" 가 가장 가까운 가로 스크롤 부모만 정렬해 window 세로 스크롤엔 영향 없음.
+  activeLink?.scrollIntoView({ inline: "start", block: "nearest", behavior: "smooth" });
 }
 
 /* ---------- Data load + render ---------- */

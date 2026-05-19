@@ -14,6 +14,14 @@ const SUB_TO_PARENT = {
   "at-talks":         "awards-talks",
 };
 
+// 카테고리 → 헤더 로고 텍스트. ko/en 동일하게 영문 카테고리명 사용.
+const NAV_TITLE = {
+  career:         "Career",
+  "awards-talks": "Awards / Talks",
+  reading:        "Reading",
+  contact:        "Contact",
+};
+
 export function initNavigation() {
   const header   = document.getElementById("topNav");
   const menu     = document.getElementById("topNavMenu");
@@ -22,6 +30,13 @@ export function initNavigation() {
   const prevBtn  = document.querySelector(".nav-arrow--prev");
   const nextBtn  = document.querySelector(".nav-arrow--next");
   const burger   = document.querySelector(".hamburger");
+  const logoMobile = document.querySelector(".top-nav__logo-mobile");
+
+  // ---- 로고 텍스트 갱신 (모바일에서만 노출 — PC는 별도 고정 로고) ----
+  function updateLogo(name) {
+    if (!logoMobile) return;
+    logoMobile.textContent = NAV_TITLE[name] || "yimwooyoung";
+  }
 
   // ---- 카테고리 전환 ----
   function goTo(name, { updateHash = true, scrollToId = null } = {}) {
@@ -33,6 +48,8 @@ export function initNavigation() {
     links.forEach(l => {
       l.classList.toggle("is-active", l.dataset.nav === name);
     });
+
+    updateLogo(name);
 
     if (updateHash) {
       const newHash = `#${scrollToId || name}`;
@@ -94,6 +111,48 @@ export function initNavigation() {
     if (e.key === "ArrowRight") step(+1);
   });
 
+  // ---- 터치 스와이프: 좌/우로 카테고리 전환 (PC 화살표와 동일 동작) ----
+  // 임계값: 수평 이동 > 60px, 수평 우세(|dx| > 1.5 * |dy|), 시간 < 600ms.
+  // 가로 스크롤 영역(서브탭 등)이나 모달/햄버거 열림 시 무시.
+  const SWIPE_THRESHOLD = 60;
+  const SWIPE_RATIO     = 1.5;
+  const SWIPE_TIMEOUT   = 600;
+  let touchStart = null;
+
+  function isInsideHorizontalScroller(el) {
+    let n = el;
+    while (n && n !== document.body) {
+      if (n.classList?.contains("career-submenu") ||
+          n.classList?.contains("at-submenu")) return true;
+      n = n.parentElement;
+    }
+    return false;
+  }
+
+  document.addEventListener("touchstart", (e) => {
+    if (e.touches.length !== 1) { touchStart = null; return; }
+    if (isModalOpen()) return;
+    if (menu?.classList.contains("is-open")) return;
+    if (isInsideHorizontalScroller(e.target)) return;
+    const t0 = e.touches[0];
+    touchStart = { x: t0.clientX, y: t0.clientY, time: Date.now() };
+  }, { passive: true });
+
+  document.addEventListener("touchend", (e) => {
+    if (!touchStart) return;
+    const t1 = e.changedTouches[0];
+    const dx = t1.clientX - touchStart.x;
+    const dy = t1.clientY - touchStart.y;
+    const dt = Date.now() - touchStart.time;
+    touchStart = null;
+    if (dt > SWIPE_TIMEOUT) return;
+    if (Math.abs(dx) < SWIPE_THRESHOLD) return;
+    if (Math.abs(dx) < SWIPE_RATIO * Math.abs(dy)) return;
+    step(dx < 0 ? +1 : -1); // 왼쪽으로 스와이프 → 다음 카테고리
+  }, { passive: true });
+
+  document.addEventListener("touchcancel", () => { touchStart = null; }, { passive: true });
+
   // ---- 햄버거 메뉴 ----
   function openMenu() {
     if (!menu || !burger) return;
@@ -112,6 +171,13 @@ export function initNavigation() {
     expanded ? closeMenu() : openMenu();
   });
 
+  // 패널 외부 영역 클릭/터치 시 자동 닫힘 (모바일 UX)
+  document.addEventListener("click", (e) => {
+    if (!menu?.classList.contains("is-open")) return;
+    if (menu.contains(e.target) || burger?.contains(e.target)) return;
+    closeMenu();
+  });
+
   // ---- 스크롤 시 헤더 축소 + 블러 강화 ----
   let ticking = false;
   function onScroll() {
@@ -126,6 +192,10 @@ export function initNavigation() {
 
   // ---- 뒤로가기 / 직접 hash 입력 ----
   window.addEventListener("popstate", () => {
+    routeFromHash((location.hash || "#home").slice(1), { updateHash: false });
+  });
+  // URL 바에서 hash만 직접 바꿔 입력한 경우(reload 없이) — popstate가 아닌 hashchange로 옴
+  window.addEventListener("hashchange", () => {
     routeFromHash((location.hash || "#home").slice(1), { updateHash: false });
   });
 

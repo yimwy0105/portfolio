@@ -57,9 +57,14 @@ function setupSubmenu() {
 }
 
 function setActive(id) {
+  let activeLink = null;
   document.querySelectorAll("#awards-talks .at-submenu__link").forEach(l => {
-    l.classList.toggle("is-active", l.dataset.sub === id);
+    const isActive = l.dataset.sub === id;
+    l.classList.toggle("is-active", isActive);
+    if (isActive) activeLink = l;
   });
+  // 모바일에선 서브탭이 가로 스크롤(.at-submenu). 활성 탭을 컨테이너 좌측에 강제 정렬.
+  activeLink?.scrollIntoView({ inline: "start", block: "nearest", behavior: "smooth" });
 }
 
 /* ---------- Awards ---------- */
