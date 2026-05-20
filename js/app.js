@@ -1,13 +1,13 @@
 // app.js — 진입점. 모듈 초기화 + 스크롤 트리거 페이드인.
 
-import { initNavigation } from "./navigation.js?v=20260519d";
-import { initTheme }      from "./theme.js?v=20260519d";
-import { initI18n }       from "./i18n.js?v=20260519d";
-import { initImageModal } from "./image-modal.js?v=20260519d";
-import { initBio }        from "./bio.js?v=20260519d";
-import { initCareer }     from "./timeline.js?v=20260519d";
-import { initAwardsTalks } from "./awards-talks.js?v=20260519d";
-import { initReading }    from "./reading.js?v=20260519d";
+import { initNavigation } from "./navigation.js";
+import { initTheme }      from "./theme.js";
+import { initI18n }       from "./i18n.js";
+import { initImageModal } from "./image-modal.js";
+import { initBio }        from "./bio.js";
+import { initCareer }     from "./timeline.js";
+import { initAwardsTalks } from "./awards-talks.js";
+import { initReading }    from "./reading.js";
 
 function initScrollReveal() {
   const targets = document.querySelectorAll(".fade-in, .slide-up, .slide-left, .slide-right");
