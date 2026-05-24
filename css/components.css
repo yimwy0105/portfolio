@@ -394,23 +394,6 @@
   }
 }
 
-/* LED-TEST: 핑크 ↔ 그린 색 전환 (다크 모드에서만) */
-[data-theme="dark"] .hero__visual-img--led-green,
-:root:not([data-theme="light"]) .hero__visual-img--led-green {
-  position: absolute;
-  inset: 0;
-  opacity: 0;
-  animation: led-cycle 7s ease-in-out 1.5s infinite;
-}
-@keyframes led-cycle {
-  0%   { opacity: 0; }
-  50%  { opacity: 1; }
-  100% { opacity: 0; }
-}
-@media (prefers-reduced-motion: reduce) {
-  .hero__visual-img--led-green { animation: none; }
-}
-
 .hero__eyebrow {
   font-size: var(--font-size-title-lg);
   font-weight: var(--font-weight-bold);
