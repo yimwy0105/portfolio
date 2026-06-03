@@ -1,12 +1,12 @@
 {
-  "syncedAt": "2026-06-02",
+  "syncedAt": "2026-06-03",
   "source": "https://www.notion.so/27c4573b0fd380acbb00f4e3cc613b3d",
   "books": [
     {"id":"5cf849fd1caf444ea5fb258092b83752","title":"수학이 쉬워지는 최소한의 세계사","author":"후쿠스케","genre":"자연과학","formats":["Paper"],"cover":"assets/reading/covers/k202137605_1.jpg","startDate":null,"endDate":null,"rating":null,"status":"읽기전"},
     {"id":"435775f6e67b450f945efd55961aab92","title":"안녕이라 그랬어","author":"김애란","genre":"소설","formats":["Paper"],"cover":"assets/reading/covers/s632135953_1.jpg","startDate":null,"endDate":null,"rating":null,"status":"읽기전"},
     {"id":"6efcd39517c34e72aa930f877b2e1e90","title":"당신의 말이 곧 당신의 수준이다","author":"루트비히 비트겐슈타인, Ludwig Wittgenstein","genre":"인문","formats":["AudioBook"],"cover":"assets/reading/covers/k632034080_1.jpg","startDate":null,"endDate":null,"rating":null,"status":"읽기전"},
-    {"id":"45d11f562f3b4d4b917d28b981a7cd19","title":"마흔에 읽는 니체","author":"장지형","genre":"인문","formats":["Paper"],"cover":"assets/reading/covers/k162838352_1.jpg","startDate":null,"endDate":null,"rating":null,"status":"읽기전"},
-    {"id":"ea9aa71e20694902bb9f39cb7cc7c04a","title":"세상을 보는 지혜 필사책","author":"발타자르 그라시안","genre":"인문","formats":["Paper"],"cover":"assets/reading/covers/k402031321_1.jpg","startDate":null,"endDate":null,"rating":null,"status":"읽기전"},
+    {"id":"45d11f562f3b4d4b917d28b981a7cd19","title":"마흔에 읽는 니체","author":"장지형","genre":"인문","formats":["Paper"],"cover":"assets/reading/covers/k162838352_1.jpg","startDate":"2026-05-18","endDate":"2026-06-03","rating":9,"status":"완료"},
+    {"id":"ea9aa71e20694902bb9f39cb7cc7c04a","title":"세상을 보는 지혜 필사책","author":"발타자르 그라시안","genre":"인문","formats":["Paper"],"cover":"assets/reading/covers/k402031321_1.jpg","startDate":"2026-03-01","endDate":null,"rating":null,"status":"읽는중"},
     {"id":"2cc86056b4d74e2196e5acc16540a443","title":"마음의 법칙","author":"폴커 키츠, Volker Kitz","genre":"심리","formats":["Paper"],"cover":"assets/reading/covers/k022836695_1.jpg","startDate":null,"endDate":null,"rating":null,"status":"읽기전"},
     {"id":"2ebe0e6dd6834fc593d4c3b303690da0","title":"콘텐츠 디자인은 피그마 with AI","author":"리디드로우(김선영)","genre":"디자인","formats":["Paper"],"cover":"assets/reading/covers/k942030606_1.jpg","startDate":null,"endDate":null,"rating":null,"status":"읽기전"},
     {"id":"97681d98527447c79caa2be0d020eb17","title":"미친듯이 심플","author":"켄 시걸, Ken Segall","genre":"자서전","formats":["Paper"],"cover":"assets/reading/covers/8954624383_3.jpg","startDate":"2025-10-11","endDate":null,"rating":null,"status":"읽는중"},
