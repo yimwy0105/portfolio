@@ -1,19 +1,19 @@
 {
-  "syncedAt": "2026-06-25",
+  "syncedAt": "2026-06-28",
   "source": "https://www.notion.so/27c4573b0fd380acbb00f4e3cc613b3d",
   "books": [
     {"id":"5cf849fd1caf444ea5fb258092b83752","title":"수학이 쉬워지는 최소한의 세계사","author":"후쿠스케","genre":"자연과학","formats":["Paper"],"cover":"assets/reading/covers/k202137605_1.jpg","startDate":null,"endDate":null,"rating":null,"status":"읽기전"},
-    {"id":"435775f6e67b450f945efd55961aab92","title":"안녕이라 그랬어","author":"김애란","genre":"소설","formats":["Paper"],"cover":"assets/reading/covers/s632135953_1.jpg","startDate":null,"endDate":null,"rating":null,"status":"읽기전"},
-    {"id":"6efcd39517c34e72aa930f877b2e1e90","title":"당신의 말이 곧 당신의 수준이다","author":"루트비히 비트겐슈타인, Ludwig Wittgenstein","genre":"인문","formats":["AudioBook"],"cover":"assets/reading/covers/k632034080_1.jpg","startDate":null,"endDate":null,"rating":null,"status":"읽는중"},
+    {"id":"435775f6e67b450f945efd55961aab92","title":"안녕이라 그랬어","author":"김애란","genre":"소설","formats":["Paper"],"cover":"assets/reading/covers/s632135953_1.jpg","startDate":"2026-06-13","endDate":null,"rating":null,"status":"읽는중"},
+    {"id":"6efcd39517c34e72aa930f877b2e1e90","title":"당신의 말이 곧 당신의 수준이다","author":"루트비히 비트겐슈타인, Ludwig Wittgenstein","genre":"인문","formats":["AudioBook"],"cover":"assets/reading/covers/k632034080_1.jpg","startDate":"2026-05-03","endDate":"2026-06-27","rating":8,"status":"완료"},
     {"id":"45d11f562f3b4d4b917d28b981a7cd19","title":"마흔에 읽는 니체","author":"장지형","genre":"인문","formats":["Paper"],"cover":"assets/reading/covers/k162838352_1.jpg","startDate":"2026-05-18","endDate":"2026-06-03","rating":9,"status":"완료"},
     {"id":"3894573b0fd381a88763c22b949a2eb6","title":"사랑도 복원이 될까요?","author":"송라음","genre":"소설","formats":["AudioBook"],"cover":"assets/reading/covers/k412034881_1.jpg","startDate":"2026-06-10","endDate":"2026-06-17","rating":8.5,"status":"완료"},
     {"id":"3894573b0fd381f19dbec4ce11d4c7a5","title":"한번 시작하면 잠들 수 없는 세계사","author":"김도형","genre":"역사","formats":["AudioBook"],"cover":"assets/reading/covers/k052033731_2.jpg","startDate":"2026-05-01","endDate":"2026-06-22","rating":8,"status":"완료"},
     {"id":"ea9aa71e20694902bb9f39cb7cc7c04a","title":"세상을 보는 지혜 필사책","author":"발타자르 그라시안","genre":"인문","formats":["Paper"],"cover":"assets/reading/covers/k402031321_1.jpg","startDate":"2026-03-01","endDate":null,"rating":null,"status":"읽는중"},
     {"id":"2cc86056b4d74e2196e5acc16540a443","title":"마음의 법칙","author":"폴커 키츠, Volker Kitz","genre":"심리","formats":["Paper"],"cover":"assets/reading/covers/k022836695_1.jpg","startDate":null,"endDate":null,"rating":null,"status":"읽기전"},
-    {"id":"2ebe0e6dd6834fc593d4c3b303690da0","title":"콘텐츠 디자인은 피그마 with AI","author":"리디드로우(김선영)","genre":"디자인","formats":["Paper"],"cover":"assets/reading/covers/k942030606_1.jpg","startDate":null,"endDate":null,"rating":null,"status":"읽기전"},
+    {"id":"2ebe0e6dd6834fc593d4c3b303690da0","title":"콘텐츠 디자인은 피그마 with AI","author":"리디드로우(김선영)","genre":"디자인","formats":["Paper"],"cover":"assets/reading/covers/k942030606_1.jpg","startDate":null,"endDate":null,"rating":null,"status":"백과사전"},
     {"id":"97681d98527447c79caa2be0d020eb17","title":"미친듯이 심플","author":"켄 시걸, Ken Segall","genre":"자서전","formats":["Paper"],"cover":"assets/reading/covers/8954624383_3.jpg","startDate":"2025-10-11","endDate":null,"rating":null,"status":"읽는중"},
-    {"id":"0b65a5f8a0594598a26b570399da9b33","title":"어쨌든, 에이전틱 코딩","author":"코다프레스","genre":"AI","formats":[],"cover":"assets/reading/covers/8966265286_1.jpg","startDate":"2026-06-02","endDate":null,"rating":null,"status":"읽는중"},
-    {"id":"3894573b0fd3818f8c6ddb3a72bc7178","title":"프로이트의 감정수업","author":"강이안","genre":null,"formats":["AudioBook"],"cover":"assets/reading/covers/k972032730_1.jpg","startDate":"2026-05-22","endDate":null,"rating":null,"status":"읽는중"},
+    {"id":"0b65a5f8a0594598a26b570399da9b33","title":"어쨌든, 에이전틱 코딩","author":"코다프레스","genre":"AI","formats":["Paper"],"cover":"assets/reading/covers/8966265286_1.jpg","startDate":"2026-06-02","endDate":null,"rating":null,"status":"읽는중"},
+    {"id":"3894573b0fd3818f8c6ddb3a72bc7178","title":"프로이트의 감정수업","author":"강이안","genre":"철학","formats":["AudioBook"],"cover":"assets/reading/covers/k972032730_1.jpg","startDate":"2026-05-22","endDate":"2026-06-28","rating":8,"status":"완료"},
     {"id":"c0d1147de8f44051829a221e50ebeb73","title":"옵시디언 프로페셔널 노트","author":"구요한","genre":"AI","formats":["Paper"],"cover":"assets/reading/covers/k342137789_1.jpg","startDate":"2026-04-27","endDate":null,"rating":null,"status":"백과사전"},
     {"id":"983de67a24da416c9a2c1858899be8a8","title":"잠수의학","author":"Dr. Car Edmonds","genre":"라이프","formats":["Paper"],"cover":"assets/reading/covers/8980852894_1.jpg","startDate":"2016-11-07","endDate":null,"rating":8,"status":"백과사전"},
     {"id":"26b7f9818fda4d99b73f2c504c7594cf","title":"케이스 인 포인트","author":"마크 P. 코센티노","genre":"경제/경영","formats":["Paper"],"cover":"assets/reading/covers/8996704563_1.jpg","startDate":null,"endDate":null,"rating":8,"status":"완료"},
@@ -58,6 +58,7 @@
     {"id":"7dbdc7cb3784491e94f77da635882df8","title":"바꿔볼래?","author":"조선희","genre":"소설","formats":["AudioBook"],"cover":"assets/reading/covers/k632934882_1.jpg","startDate":"2026-05-15","endDate":"2026-05-19","rating":8.5,"status":"완료"},
     {"id":"32f6dffcca4f4e26bfcbbf65761ae35f","title":"망원동 브라더스","author":"김호연","genre":"소설","formats":["AudioBook"],"cover":"assets/reading/covers/k182932378_1.jpg","startDate":"2026-05-27","endDate":"2026-06-02","rating":8.5,"status":"완료"},
     {"id":"b40946ed85894f97b2f304ab1f8f1fb7","title":"플랫폼 전략","author":"안드레이 학주, 히라노 아쓰시 칼","genre":"IT 모바일","formats":["Paper"],"cover":"assets/reading/covers/8994418202_1.jpg","startDate":null,"endDate":null,"rating":null,"status":"완료"},
-    {"id":"b7487006b46e42578119ca358b35f022","title":"요즘 바이브 코딩 안티그래비티 완벽 가이드","author":"최지호","genre":"AI","formats":["Paper"],"cover":"assets/reading/covers/k112135794_2.jpg","startDate":"2026-03-17","endDate":null,"rating":8,"status":"완료"}
+    {"id":"b7487006b46e42578119ca358b35f022","title":"요즘 바이브 코딩 안티그래비티 완벽 가이드","author":"최지호","genre":"AI","formats":["Paper"],"cover":"assets/reading/covers/k112135794_2.jpg","startDate":"2026-03-17","endDate":null,"rating":8,"status":"완료"},
+    {"id":"38d4573b0fd38125b6a9eb66f6bd8fd1","title":"나는 어떻게 삶의 해답을 찾는가","author":"고명환","genre":"자기계발","formats":["AudioBook"],"cover":"assets/reading/covers/k372833535_1.jpg","startDate":"2026-06-28","endDate":null,"rating":null,"status":"읽기전"}
   ]
 }
