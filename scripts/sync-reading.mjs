@@ -13,39 +13,50 @@ const ROOT = resolve(__dirname, "..");
 const JSON_PATH = resolve(ROOT, "data/reading.json");
 const COVERS_DIR = resolve(ROOT, "assets/reading/covers");
 
-const DATABASE_ID = "27c4573b0fd38041acb3c8ce89f230ec"; // 독서 Library DB
+const DATABASE_ID = "27c4573b0fd38041acb3c8ce89f230ec"; // 독서 Library DB (구 API용)
+const DATA_SOURCE_ID = "2604573b-0fd3-8036-b419-000bf4cab2e2"; // 📚 Library 데이터소스 (신 API용)
 const TOKEN = process.env.NOTION_TOKEN;
-const NOTION_VERSION = "2022-06-28";
 
 const stripDash = (s) => s.replace(/-/g, "");
 
-async function notion(path, body) {
+async function notion(path, body, version) {
   const res = await fetch(`https://api.notion.com/v1/${path}`, {
     method: "POST",
     headers: {
       Authorization: `Bearer ${TOKEN}`,
-      "Notion-Version": NOTION_VERSION,
+      "Notion-Version": version,
       "Content-Type": "application/json",
     },
     body: JSON.stringify(body || {}),
   });
-  if (!res.ok) throw new Error(`Notion ${path} ${res.status}: ${await res.text()}`);
+  if (!res.ok) {
+    const err = new Error(`Notion ${path} ${res.status}: ${await res.text()}`);
+    err.status = res.status;
+    throw err;
+  }
   return res.json();
 }
 
-// DB 전체 페이지를 페이지네이션으로 수집
-async function fetchAllPages() {
+async function queryAll(path, version) {
   const pages = [];
   let cursor;
   do {
-    const data = await notion(`databases/${DATABASE_ID}/query`, {
-      page_size: 100,
-      start_cursor: cursor,
-    });
+    const data = await notion(path, { page_size: 100, start_cursor: cursor }, version);
     pages.push(...data.results);
     cursor = data.has_more ? data.next_cursor : undefined;
   } while (cursor);
   return pages;
+}
+
+// DB 전체 페이지 수집 — 신 API(data source) 우선, 404면 구 API(database)로 폴백
+async function fetchAllPages() {
+  try {
+    return await queryAll(`data_sources/${DATA_SOURCE_ID}/query`, "2025-09-03");
+  } catch (e) {
+    if (e.status !== 404) throw e;
+    console.warn("data_sources 404 → databases 엔드포인트로 폴백");
+    return await queryAll(`databases/${DATABASE_ID}/query`, "2022-06-28");
+  }
 }
 
 // 페이지 properties → 평탄화
