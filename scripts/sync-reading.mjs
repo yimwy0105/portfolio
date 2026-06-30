@@ -164,6 +164,11 @@ async function main() {
     }
   }
 
+  // 실제 변경이 있을 때만 파일을 쓴다(불필요한 주간 커밋 방지)
+  if (added === 0 && updates === 0) {
+    console.log(`동기화 완료 — 변경 없음 (총 ${data.books.length}권)`);
+    return;
+  }
   data.syncedAt = new Date().toISOString().slice(0, 10);
   writeFileSync(JSON_PATH, serialize(data));
   console.log(`동기화 완료 — 신규 ${added}권, 필드 업데이트 ${updates}건, 총 ${data.books.length}권`);
