@@ -5,17 +5,17 @@
 
 :root {
   /* ---------- Colors · Brand & Accent ---------- */
-  --color-primary: #82dc28;          /* Olive Green */
-  --color-primary-active: #6bb820;
-  --color-primary-soft: #e8f7d4;
-  --color-accent: #ff7878;           /* Coral Orange */
-  --color-accent-active: #ff5757;
-  --color-accent-soft: #ffe6e6;
+  --color-primary: #215f9a;          /* Navy Brand (주요) */
+  --color-primary-active: #1a4e80;
+  --color-primary-soft: #e2eaf3;
+  --color-accent: #eb6e8c;           /* Pink Brand (보조 accent) */
+  --color-accent-active: #ea7b96;    /* Pink Deep */
+  --color-accent-soft: #fbe0ea;      /* Pink Light wash */
 
   /* ---------- Colors · Surface ---------- */
-  --color-canvas: #ffffff;
-  --color-surface-soft: #f7f7f7;
-  --color-surface-strong: #f0f0f0;
+  --color-canvas: #ffffff;           /* white card surface */
+  --color-surface-soft: #f5f5f5;     /* neutral-gray report canvas */
+  --color-surface-strong: #f2f2f2;   /* surface inner */
   --color-surface-dark: #1a1a1a;
   --color-surface-dark-soft: #2a2a2a;
 
@@ -25,7 +25,7 @@
   --color-border-strong: #cccccc;
 
   /* ---------- Colors · Text ---------- */
-  --color-ink: #1a1a1a;
+  --color-ink: #1f1f1f;
   --color-body: #333333;
   --color-muted: #666666;
   --color-muted-soft: #999999;
@@ -35,10 +35,10 @@
   --color-on-dark-soft: #b3b3b3;
 
   /* ---------- Colors · Semantic ---------- */
-  --color-error: #e74c3c;
-  --color-success: #82dc28;
-  --color-warning: #f5a623;
-  --color-focus: #82dc28;
+  --color-error: #e53935;
+  --color-success: #4caf50;
+  --color-warning: #ffa726;
+  --color-focus: #215f9a;
 
   /* ---------- Colors · Scrim ---------- */
   --color-scrim: rgba(0, 0, 0, 0.5);
@@ -158,8 +158,11 @@
     --color-muted:      #b3b3b3;
     --color-muted-soft: #808080;
 
-    --color-primary-soft: #2a3a1c;
-    --color-accent-soft:  #3a2424;
+    /* 다크모드: 네이비 액센트는 어두운 배경에서 대비가 약해 핑크로 전환 */
+    --color-primary:        #eb6e8c;
+    --color-primary-active: #f48fb1;
+    --color-primary-soft:   #3a2430;
+    --color-accent-soft:    #3a2430;
 
     --color-scrim: rgba(0, 0, 0, 0.65);
   }
@@ -181,8 +184,11 @@
   --color-muted:      #b3b3b3;
   --color-muted-soft: #808080;
 
-  --color-primary-soft: #2a3a1c;
-  --color-accent-soft:  #3a2424;
+  /* 다크모드: 네이비 액센트는 어두운 배경에서 대비가 약해 핑크로 전환 */
+  --color-primary:        #eb6e8c;
+  --color-primary-active: #f48fb1;
+  --color-primary-soft:   #3a2430;
+  --color-accent-soft:    #3a2430;
 
   --color-scrim: rgba(0, 0, 0, 0.65);
 }

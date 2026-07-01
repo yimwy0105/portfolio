@@ -278,12 +278,12 @@
 }
 
 .button--coral {
-  background-color: var(--color-accent);
+  background-color: var(--color-primary);
   color: var(--color-on-accent);
 }
 .button--coral:hover,
 .button--coral:active {
-  background-color: var(--color-accent-active);
+  background-color: var(--color-primary-active);
 }
 
 .button--secondary {
@@ -415,7 +415,7 @@
   font-size: var(--font-size-title-lg);
   font-weight: var(--font-weight-bold);
   letter-spacing: var(--letter-spacing-title-lg);
-  color: var(--color-primary-active);
+  color: var(--color-primary);
   margin-bottom: var(--space-base);
 }
 
@@ -913,14 +913,14 @@
   color: var(--color-on-primary);
   font-size: var(--font-size-button-md);
   font-weight: var(--font-weight-semibold);
-  box-shadow: 0 6px 20px rgba(130, 220, 40, 0.35);
+  box-shadow: 0 6px 20px rgba(33, 95, 154, 0.35);
   transition: transform 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
   z-index: 20;
 }
 .bio-toggle:hover {
   background-color: var(--color-primary-active);
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(130, 220, 40, 0.45);
+  box-shadow: 0 8px 24px rgba(33, 95, 154, 0.45);
 }
 .bio-toggle__icon {
   transition: transform 0.25s ease;
@@ -1363,8 +1363,8 @@
   background-color: #fff8e0;
 }
 .award-badge--grand {
-  color: var(--color-accent-active);
-  background-color: var(--color-accent-soft);
+  color: var(--color-primary-active);
+  background-color: var(--color-primary-soft);
 }
 .award-badge--first {
   color: var(--color-primary-active);
@@ -1415,12 +1415,12 @@
   border-radius: var(--radius-lg);
   background-color: var(--color-canvas);
   border: 1px solid var(--color-hairline);
-  border-top: 3px solid var(--color-accent);
+  border-top: 3px solid var(--color-primary);
   overflow: hidden;
   transition: box-shadow 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
 }
 .talk-card:hover {
-  border-color: var(--color-accent);
+  border-color: var(--color-primary);
   box-shadow: var(--shadow-card-lift);
   transform: translateY(-2px);
 }
@@ -1467,7 +1467,7 @@
   font-weight: var(--font-weight-semibold);
   letter-spacing: var(--letter-spacing-uppercase-tag);
   text-transform: uppercase;
-  color: var(--color-accent-active);
+  color: var(--color-primary-active);
 }
 
 .talk-card__event {
@@ -1492,7 +1492,7 @@
   width: 4px;
   height: 4px;
   border-radius: var(--radius-full);
-  background-color: var(--color-accent);
+  background-color: var(--color-primary);
 }
 
 .talk-card__desc {
@@ -1648,8 +1648,8 @@
   font-size: var(--font-size-caption-sm);
   font-weight: var(--font-weight-semibold);
   border-radius: var(--radius-pill);
-  background-color: var(--color-primary);
-  color: var(--color-ink);
+  background-color: var(--color-accent);
+  color: var(--color-on-accent);
   letter-spacing: 0.02em;
 }
 
@@ -1741,7 +1741,7 @@
   padding-bottom: var(--space-section);
   background:
     radial-gradient(circle at 15% 10%, var(--color-primary-soft) 0%, transparent 45%),
-    radial-gradient(circle at 85% 90%, var(--color-accent-soft) 0%, transparent 45%),
+    radial-gradient(circle at 85% 90%, var(--color-primary-soft) 0%, transparent 45%),
     var(--color-canvas);
 }
 
@@ -1905,3 +1905,25 @@ a.contact-item__link:hover {
   }
   .contact-card__name { font-size: var(--font-size-title-lg); }
 }
+
+/* ============================================================
+ * Dark mode 보정
+ * 액센트는 theme.css 다크 블록에서 핑크로 전환된다(primary 토큰).
+ * 아래는 그 위에 얹는 개별 예외.
+ * ============================================================ */
+
+/* 서브메뉴 활성 강조선: 핑크 대신 흰색으로 강조 */
+[data-theme="dark"] .career-submenu__link.is-active::before,
+[data-theme="dark"] .at-submenu__link.is-active::before {
+  background-color: #ffffff;
+}
+
+/* reading 장르 배지: 어두운 배경에서 거의 안 보임 → 밝은 배경 + 짙은 핑크 텍스트 */
+[data-theme="dark"] .book-card__chip--genre {
+  background-color: #fbeaf1;
+  color: #c2185b;
+}
+
+/* 자기소개 보기 버튼 글로우도 핑크로 */
+[data-theme="dark"] .bio-toggle { box-shadow: 0 6px 20px rgba(235, 110, 140, 0.35); }
+[data-theme="dark"] .bio-toggle:hover { box-shadow: 0 8px 24px rgba(235, 110, 140, 0.45); }
