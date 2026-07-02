@@ -59,6 +59,6 @@
     {"id":"32f6dffcca4f4e26bfcbbf65761ae35f","title":"망원동 브라더스","author":"김호연","genre":"소설","formats":["AudioBook"],"cover":"assets/reading/covers/k182932378_1.jpg","startDate":"2026-05-27","endDate":"2026-06-02","rating":8.5,"status":"완료"},
     {"id":"b40946ed85894f97b2f304ab1f8f1fb7","title":"플랫폼 전략","author":"안드레이 학주, 히라노 아쓰시 칼","genre":"IT 모바일","formats":["Paper"],"cover":"assets/reading/covers/8994418202_1.jpg","startDate":null,"endDate":null,"rating":null,"status":"완료"},
     {"id":"b7487006b46e42578119ca358b35f022","title":"요즘 바이브 코딩 안티그래비티 완벽 가이드","author":"최지호","genre":"AI","formats":["Paper"],"cover":"assets/reading/covers/k112135794_2.jpg","startDate":"2026-03-17","endDate":null,"rating":8,"status":"완료"},
-    {"id":"38d4573b0fd38125b6a9eb66f6bd8fd1","title":"나는 어떻게 삶의 해답을 찾는가","author":"고명환","genre":"자기계발","formats":["AudioBook"],"cover":"assets/reading/covers/k372833535_1.jpg","startDate":"2026-06-28","endDate":"2026-06-30","rating":8,"status":"읽는중"}
+    {"id":"38d4573b0fd38125b6a9eb66f6bd8fd1","title":"나는 어떻게 삶의 해답을 찾는가","author":"고명환","genre":"자기계발","formats":["AudioBook"],"cover":"assets/reading/covers/k372833535_1.jpg","startDate":"2026-06-28","endDate":"2026-06-30","rating":8,"status":"완료"}
   ]
 }
