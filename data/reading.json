@@ -1,9 +1,9 @@
 {
-  "syncedAt": "2026-06-30",
+  "syncedAt": "2026-07-06",
   "source": "https://www.notion.so/27c4573b0fd380acbb00f4e3cc613b3d",
   "books": [
     {"id":"5cf849fd1caf444ea5fb258092b83752","title":"수학이 쉬워지는 최소한의 세계사","author":"후쿠스케","genre":"자연과학","formats":["Paper"],"cover":"assets/reading/covers/k202137605_1.jpg","startDate":null,"endDate":null,"rating":null,"status":"읽기전"},
-    {"id":"435775f6e67b450f945efd55961aab92","title":"안녕이라 그랬어","author":"김애란","genre":"소설","formats":["Paper"],"cover":"assets/reading/covers/s632135953_1.jpg","startDate":"2026-06-13","endDate":null,"rating":null,"status":"읽는중"},
+    {"id":"435775f6e67b450f945efd55961aab92","title":"안녕이라 그랬어","author":"김애란","genre":"소설","formats":["Paper"],"cover":"assets/reading/covers/s632135953_1.jpg","startDate":"2026-06-13","endDate":"2026-07-04","rating":7.5,"status":"완료"},
     {"id":"6efcd39517c34e72aa930f877b2e1e90","title":"당신의 말이 곧 당신의 수준이다","author":"루트비히 비트겐슈타인, Ludwig Wittgenstein","genre":"인문","formats":["AudioBook"],"cover":"assets/reading/covers/k632034080_1.jpg","startDate":"2026-05-03","endDate":"2026-06-27","rating":8,"status":"완료"},
     {"id":"45d11f562f3b4d4b917d28b981a7cd19","title":"마흔에 읽는 니체","author":"장지형","genre":"인문","formats":["Paper"],"cover":"assets/reading/covers/k162838352_1.jpg","startDate":"2026-05-18","endDate":"2026-06-03","rating":9,"status":"완료"},
     {"id":"3894573b0fd381a88763c22b949a2eb6","title":"사랑도 복원이 될까요?","author":"송라음","genre":"소설","formats":["AudioBook"],"cover":"assets/reading/covers/k412034881_1.jpg","startDate":"2026-06-10","endDate":"2026-06-17","rating":8.5,"status":"완료"},
