@@ -71,6 +71,7 @@ export function parsePage(p) {
     formats: (props["Format"]?.multi_select || []).map((o) => o.name),
     rating: props["N.Rating"]?.number ?? null,
     status: props["Status"]?.status?.name ?? null,
+    oneLiner: (props["One-liner"]?.rich_text || []).map((t) => t.plain_text).join("") || null,
     startDate: props["읽기시작"]?.date?.start ?? null,
     endDate: props["종료일"]?.date?.start ?? null,
     url: props["URL"]?.url ?? null,
@@ -102,7 +103,7 @@ export async function downloadCover(imgUrl) {
 }
 
 // reading.json 직렬화(책 1개당 한 줄, 키 순서 고정)
-const KEY_ORDER = ["id", "title", "author", "genre", "formats", "cover", "startDate", "endDate", "rating", "status"];
+const KEY_ORDER = ["id", "title", "author", "genre", "formats", "cover", "startDate", "endDate", "rating", "status", "oneLiner"];
 export function serialize(data) {
   const line = (b) => {
     const o = {};
@@ -128,7 +129,7 @@ async function main() {
   const byId = new Map(data.books.map((b) => [b.id, b]));
 
   const pages = (await fetchAllPages()).map(parsePage);
-  const MUTABLE = ["status", "startDate", "endDate", "rating", "genre", "formats"];
+  const MUTABLE = ["status", "startDate", "endDate", "rating", "genre", "formats", "oneLiner"];
 
   let updates = 0;
   let added = 0;
@@ -158,6 +159,7 @@ async function main() {
         endDate: n.endDate,
         rating: n.rating,
         status: n.status,
+        oneLiner: n.oneLiner,
       });
       added++;
       console.log("신규:", n.title.split(" | ")[0].trim());

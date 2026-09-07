@@ -96,6 +96,14 @@ function cover(b) {
     wrap.appendChild(r);
   }
 
+  // 한줄평이 있을 때만 표지 위 오버레이로 노출(호버/포커스 시 표시)
+  if (b.oneLiner) {
+    const note = document.createElement("p");
+    note.className = "book-card__oneliner";
+    note.textContent = b.oneLiner;
+    wrap.appendChild(note);
+  }
+
   return wrap;
 }
 
