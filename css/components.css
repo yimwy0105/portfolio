@@ -1681,6 +1681,7 @@
   color: #fff;
   font-size: var(--font-size-body-sm);
   line-height: 1.55;
+  white-space: pre-line;
   word-break: keep-all;
   overflow: hidden;
   opacity: 0;
