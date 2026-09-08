@@ -128,7 +128,11 @@ async function main() {
   const data = JSON.parse(readFileSync(JSON_PATH, "utf8"));
   const byId = new Map(data.books.map((b) => [b.id, b]));
 
-  const pages = (await fetchAllPages()).map(parsePage);
+  const rawPages = await fetchAllPages();
+  if (rawPages[0]) {
+    console.log("PROPS:", Object.entries(rawPages[0].properties).map(([k, v]) => `${k}=${v.type}`).join(" | "));
+  }
+  const pages = rawPages.map(parsePage);
   const MUTABLE = ["status", "startDate", "endDate", "rating", "genre", "formats", "oneLiner"];
 
   let updates = 0;
