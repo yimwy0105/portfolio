@@ -71,7 +71,7 @@ export function parsePage(p) {
     formats: (props["Format"]?.multi_select || []).map((o) => o.name),
     rating: props["N.Rating"]?.number ?? null,
     status: props["Status"]?.status?.name ?? null,
-    oneLiner: (props["One-liner"]?.rich_text || []).map((t) => t.plain_text).join("") || null,
+    oneLiner: (props["One-Liner"]?.rich_text || []).map((t) => t.plain_text).join("") || null,
     startDate: props["읽기시작"]?.date?.start ?? null,
     endDate: props["종료일"]?.date?.start ?? null,
     url: props["URL"]?.url ?? null,
@@ -128,11 +128,7 @@ async function main() {
   const data = JSON.parse(readFileSync(JSON_PATH, "utf8"));
   const byId = new Map(data.books.map((b) => [b.id, b]));
 
-  const rawPages = await fetchAllPages();
-  if (rawPages[0]) {
-    console.log("PROPS:", Object.entries(rawPages[0].properties).map(([k, v]) => `${k}=${v.type}`).join(" | "));
-  }
-  const pages = rawPages.map(parsePage);
+  const pages = (await fetchAllPages()).map(parsePage);
   const MUTABLE = ["status", "startDate", "endDate", "rating", "genre", "formats", "oneLiner"];
 
   let updates = 0;
