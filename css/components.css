@@ -1673,20 +1673,37 @@
   position: absolute;
   inset: 0;
   display: flex;
-  align-items: center;
+  align-items: safe center;
   padding: var(--space-md);
   background-color: rgba(0, 0, 0, 0.78);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   color: #fff;
-  font-size: var(--font-size-body-sm);
+  font-size: var(--font-size-caption-sm);
   line-height: 1.55;
   white-space: pre-line;
   word-break: keep-all;
-  overflow: hidden;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.4) transparent;
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.2s ease, visibility 0.2s ease;
+}
+
+/* 전역 스크롤바(10px, 밝은 트랙)는 어두운 오버레이에 과하다 — 얇고 반투명하게 */
+.book-card__oneliner::-webkit-scrollbar {
+  width: 4px;
+}
+
+.book-card__oneliner::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.book-card__oneliner::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.4);
+  border: none;
 }
 
 .book-card:hover .book-card__oneliner {
